@@ -17,9 +17,8 @@ e-mail: leticiadmat(at)gmail(dot)com
 <br> 
 <br> 
 ### About me:
-$`\sqrt{2}`$.
 
-My research is in the areas of Extremal and Probabilistic Combinatorics and has been so far mainly focused on random matrices, Ramsey and extremal properties of the random graph $G(n,p)$, random graph processes, hyperplane covers of the hypercube and counting methods. Before coming to Illinois, I was a Dirichlet postdoctoral fellow at Freie Universität Berlin with Tibor Szabó, and a PhD student of Robert Morris at IMPA, Rio de Janeiro.
+My research is in the areas of Extremal and Probabilistic Combinatorics and has been so far mainly focused on random matrices, Ramsey and extremal properties of the random graph G(n,p), random graph processes, hyperplane covers of the hypercube and counting methods. Before coming to Illinois, I was a Dirichlet postdoctoral fellow at Freie Universität Berlin with Tibor Szabó, and a PhD student of Robert Morris at IMPA, Rio de Janeiro.
 <br> 
 <br> 
 ### Research:
