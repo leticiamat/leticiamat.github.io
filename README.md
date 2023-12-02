@@ -10,7 +10,7 @@ J.L. Doob Research Assistant Professor
 <br> 
 <br> 
 Computing and Applications Building<br> 
-605 E Springfield Ave</br> 
+605 E Springfield Ave<br> 
 Champaign, IL - USA
 
 Office: 243 <br>
