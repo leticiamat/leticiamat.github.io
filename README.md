@@ -7,20 +7,20 @@
 UIUC (University of Illinois at Urbana-Champaign)
 
 J.L. Doob Research Assistant Professor
-</br> 
-</br> 
-Computing and Applications Building</br> 
+<br> 
+<br> 
+Computing and Applications Building<br> 
 605 E Springfield Ave</br> 
 Champaign, IL - USA
 
 Office: 243 </br>e-mail: leticiadmat(at)gmail(dot)com
-</br> 
-</br> 
+<br> 
+<br> 
 ### About me:
 
 My research is in the areas of Extremal and Probabilistic Combinatorics and has been so far mainly focused on random matrices, Ramsey and extremal properties of the random graph $G(n,p)$, random graph processes, hyperplane covers of the hypercube and counting methods. Before coming to Illinois, I was a Dirichlet postdoctoral fellow at Freie Universität Berlin with Tibor Szabó, and a PhD student of Robert Morris at IMPA, Rio de Janeiro.
-</br> 
-</br> 
+<br> 
+<br> 
 ### Research:
 
 <a href="https://arxiv.org/abs/1904.11478"><span><b>On the singularity of random symmetric matrices,</b></span></a> <br>
