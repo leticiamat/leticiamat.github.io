@@ -58,5 +58,5 @@ My research is in the areas of Extremal and Probabilistic Combinatorics and has 
 ### Awards:
 
 - [Capes Thesis Award (2022)](https://impa.br/en_US/noticias/tese-de-leticia-mattos-vence-premio-capes/)
-- [honourable mention - Gutierrez Thesis award (2022)](https://impa.br/en_US/noticias/leticia-mattos-leva-mencao-honrosa-no-premio-gutierrez/)
+- [Honourable mention - Gutierrez Thesis Award (2022)](https://impa.br/en_US/noticias/leticia-mattos-leva-mencao-honrosa-no-premio-gutierrez/)
 - [AMS-Simons Travel Grant (2023)](https://www.ams.org/programs/travel-grants/AMS-SimonsTG/recipients)
