@@ -1,8 +1,6 @@
 # Letícia Mattos
 
 
-![leticia-mattos](https://github.com/leticiamat/leticiamat.github.io/assets/21958842/0af052ce-5870-427c-831d-87ee8a534cfe)
-
 
 UIUC (University of Illinois at Urbana-Champaign)
 
