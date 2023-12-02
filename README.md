@@ -37,8 +37,8 @@ My research is in the areas of Extremal and Probabilistic Combinatorics and has 
 <span><i> Journal of Combinatorial Theory Series B</i>, 157 (2022), 216-234 </span><br>
 <br>
 <a href="https://arxiv.org/abs/2010.11933"><span><b>Asymmetric Ramsey Properties of random graphs for cliques and cycles,</b></span></a> <br>
-<span>with J. Balogh and F. C. Clemen </span><br>
-<span><i> Journal of Combinatorial Theory Series B</i>, 157 (2022), 216-234 </span><br>
+<span>with A. Liebenau, W. Mendonça and J. Skokan </span><br>
+<span><i> Random Structures and Algorithms </i>, 62 (2023), 1035-1055 </span><br>
 <br>
 <a href="https://arxiv.org/abs/2201.05106"><span><b>Asymmetric On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
 <span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
