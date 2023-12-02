@@ -29,7 +29,7 @@ My research is in the areas of Extremal and Probabilistic Combinatorics and has 
 <br>
 <a href="https://arxiv.org/abs/2209.00140"><span><b>New lower bounds for essential covers of the cube,</b></span></a> <br>
 <span>with I. Araujo and J. Balogh,</span><br>
-<span><i> Israel Journal of Mathematics, to appear </i> </span><br>
+<span><i> Israel Journal of Mathematics </i>, to appear </span><br>
 <br>
 <a href="https://arxiv.org/abs/2107.14798"><span><b>Counting r-graphs without forbidden configurations,</b></span></a> <br>
 <span>with J. Balogh and F. C. Clemen </span><br>
@@ -38,4 +38,19 @@ My research is in the areas of Extremal and Probabilistic Combinatorics and has 
 <a href="https://arxiv.org/abs/2010.11933"><span><b>Asymmetric Ramsey Properties of random graphs for cliques and cycles,</b></span></a> <br>
 <span>with J. Balogh and F. C. Clemen </span><br>
 <span><i> Journal of Combinatorial Theory Series B</i>, 157 (2022), 216-234 </span><br>
-
+<br>
+<a href="https://arxiv.org/abs/2201.05106"><span><b>Asymmetric On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
+<span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
+<span><i> Electronic Journal of Combinatorics </i>, to appear </span><br>
+<br>
+<a href="https://arxiv.org/abs/1905.03811"><span><b>Long rainbow arithmetic progressions,</b></span></a> <br>
+<span>with J. Balogh and W. Linz, </span><br>
+<span><i> Journal of Combinatorics </i>, 12 (2021), 547–550 </span><br>
+<br>
+<a href="https://arxiv.org/abs/2307.09446"><span><b>Local central limit theorem for triangle counts in sparse random graphs,</b></span></a> <br>
+<span>with P. Araujo, </span><br>
+<span>submitted </span><br>
+<br>
+<a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
+<span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
+<span>submitted </span><br>
