@@ -39,7 +39,7 @@ My research is in the areas of Extremal and Probabilistic Combinatorics and has 
 <span>with A. Liebenau, W. Mendonça and J. Skokan </span><br>
 <span><i> Random Structures and Algorithms </i>, 62 (2023), 1035-1055 </span><br>
 <br>
-<a href="https://arxiv.org/abs/2201.05106"><span><b>Asymmetric On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
+<a href="https://arxiv.org/abs/2201.05106"><span><b>On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
 <span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
 <span><i> Electronic Journal of Combinatorics </i>, to appear </span><br>
 <br>
