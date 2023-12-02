@@ -13,7 +13,8 @@ Computing and Applications Building<br>
 605 E Springfield Ave</br> 
 Champaign, IL - USA
 
-Office: 243 </br>e-mail: leticiadmat(at)gmail(dot)com
+Office: 243 <br>
+e-mail: leticiadmat(at)gmail(dot)com
 <br> 
 <br> 
 ### About me:
@@ -54,3 +55,9 @@ My research is in the areas of Extremal and Probabilistic Combinatorics and has 
 <a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
 <span>submitted </span><br>
+<br> 
+### Awards:
+
+- [Prêmio Capes de tese (2022)](https://impa.br/en_US/noticias/tese-de-leticia-mattos-vence-premio-capes/)
+- [honourable mention - Gutierrez award (2022)](https://impa.br/en_US/noticias/leticia-mattos-leva-mencao-honrosa-no-premio-gutierrez/)
+- [AMS-Simons Travel Grant](https://www.ams.org/programs/travel-grants/AMS-SimonsTG/recipients)
