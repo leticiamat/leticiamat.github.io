@@ -57,6 +57,16 @@ Here is my [CV](https://github.com/leticiamat/leticiamat.github.io/files/1354205
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
 <span>submitted </span><br>
 <br> 
+### Teaching:
+
+2022/1: [The Container Method](https://drive.google.com/drive/folders/1wBxQOEIaFefwmI4gEX475sVGhNxgovxX?usp=sharing) (Discrete Mathematics III) at Freie Universität Berlin
+
+2023/1: [Fundamental Mathematics](https://lmattos.web.illinois.edu/math-347/) (MATH 347) and [Basic Discrete Mathematics](https://lmattos.web.illinois.edu/math213/) (MATH 213) at UIUC
+
+2023/2: [Introduction to Combinatorics](https://lmattos.web.illinois.edu/math-413/) (MATH 413, two sections) at UIUC
+<br>
+<br> 
+
 ### Awards:
 
 - [Capes Thesis Award (2022)](https://impa.br/en_US/noticias/tese-de-leticia-mattos-vence-premio-capes/)
