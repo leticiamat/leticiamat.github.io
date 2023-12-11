@@ -1,7 +1,7 @@
 # Letícia Mattos
 
-![leticia-mattos](https://github.com/leticiamat/leticiamat.github.io/assets/21958842/a277fbbc-b8a0-411a-b0a5-e9133cf574b9)
 
+<a href="https://opc.mfo.de/detail?photo_id=24846"><img src="https://github.com/leticiamat/leticiamat.github.io/assets/21958842/a277fbbc-b8a0-411a-b0a5-e9133cf574b9"></a>
 
 UIUC (University of Illinois at Urbana-Champaign)
 
