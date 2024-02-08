@@ -57,6 +57,10 @@ Here is my [CV](https://github.com/leticiamat/leticiamat.github.io/files/1354205
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
 <span>submitted </span><br>
 <br> 
+<a href="https://arxiv.org/abs/2402.05060"><span><b>On multicolor Turán numbers,</b></span></a> <br>
+<span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
+<span>submitted </span><br>
+<br> 
 ### Teaching:
 
 2022/1: [The Container Method](https://drive.google.com/drive/folders/1wBxQOEIaFefwmI4gEX475sVGhNxgovxX?usp=sharing) (Discrete Mathematics III) at Freie Universität Berlin
