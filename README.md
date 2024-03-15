@@ -2,25 +2,19 @@
 
 
 <a href="https://opc.mfo.de/detail?photo_id=24846"><img src="https://github.com/leticiamat/leticiamat.github.io/assets/21958842/a277fbbc-b8a0-411a-b0a5-e9133cf574b9"></a>
-
-UIUC (University of Illinois at Urbana-Champaign)
-
-J.L. Doob Research Assistant Professor
 <br> 
 <br> 
-Computing and Applications Building<br> 
-605 E Springfield Ave<br> 
-Champaign, IL - USA
-
-Office: 243 <br>
 e-mail: leticiadmat(at)gmail(dot)com
 <br> 
+<a href="https://arxiv.org/search/math?searchtype=author&query=Mattos,+L"><span>arxiv</span></a> <br>
 <br> 
 ### About me:
 
-My research is in the areas of Extremal and Probabilistic Combinatorics and has been so far mainly focused on random matrices, Ramsey and extremal properties of the random graph G(n,p), random graph processes, hyperplane covers of the hypercube and counting methods. Before coming to Illinois, I was a Dirichlet postdoctoral fellow at Freie Universität Berlin with Tibor Szabó, and a PhD student of Robert Morris at IMPA, Rio de Janeiro.
+I am a postdoctoral fellow at Heidelberg University with Professor Felix Joos.
 
-Here is my [CV](https://github.com/leticiamat/leticiamat.github.io/files/13542057/CV-mattos.pdf).
+My research is in the areas of Extremal and Probabilistic Combinatorics and has been so far mainly focused on random matrices, Ramsey and extremal properties of the random graph G(n,p), random graph processes, hyperplane covers of the hypercube and counting methods. 
+
+Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at UIUC, a Dirichlet postdoctoral fellow at Freie Universität Berlin with Tibor Szabó, and a PhD student of Robert Morris at IMPA, Rio de Janeiro.
 <br> 
 <br> 
 ### Research:
