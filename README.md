@@ -4,13 +4,25 @@
 <a href="https://opc.mfo.de/detail?photo_id=24846"><img src="https://github.com/leticiamat/leticiamat.github.io/assets/21958842/a277fbbc-b8a0-411a-b0a5-e9133cf574b9"></a>
 <br> 
 <br> 
-e-mail: leticiadmat(at)gmail(dot)com
+Universität Heidelberg
+<br> 
+<br> 
+Im Neuenheimer Feld 205
+<br> 
+69120 Heidelberg
+<br> 
+Germany
+<br> 
+<br> 
+Office: 2/212
+<br>
+e-mail: mattos (at) uni-heidelberg (dot) de
 <br> 
 <a href="https://arxiv.org/search/math?searchtype=author&query=Mattos,+L"><span>arxiv</span></a> <br>
 <br> 
 ### About me:
 
-I am a postdoctoral fellow at Heidelberg University with Professor Felix Joos.
+I am a postdoctoral fellow at Universität Heidelberg with Professor Felix Joos.
 
 My research is in the areas of Extremal and Probabilistic Combinatorics and has been so far mainly focused on random matrices, Ramsey and extremal properties of the random graph G(n,p), random graph processes, hyperplane covers of the hypercube and counting methods. 
 
