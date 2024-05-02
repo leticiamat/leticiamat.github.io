@@ -55,6 +55,10 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span>with J. Balogh and W. Linz, </span><br>
 <span><i> Journal of Combinatorics </i>, 12 (2021), 547–550 </span><br>
 <br>
+<a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
+<span>with Griffiths, </span><br>
+<span>submitted </span><br>
+<br>
 <a href="https://arxiv.org/abs/2307.09446"><span><b>Local central limit theorem for triangle counts in sparse random graphs,</b></span></a> <br>
 <span>with P. Araujo, </span><br>
 <span>submitted </span><br>
