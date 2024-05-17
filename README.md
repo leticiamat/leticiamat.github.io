@@ -71,6 +71,10 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
 <span>submitted </span><br>
 <br> 
+<a href="https://arxiv.org/abs/2405.09486"><span><b>Subgraphs of random graphs in hereditary families,</b></span></a> <br>
+<span>with A. Clifton, H. Liu and M. Zheng, </span><br>
+<span>submitted </span><br>
+<br>
 ### Teaching:
 
 2022/1: [The Container Method](https://drive.google.com/drive/folders/1wBxQOEIaFefwmI4gEX475sVGhNxgovxX?usp=sharing) (Discrete Mathematics III) at Freie Universität Berlin
