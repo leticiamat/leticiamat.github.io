@@ -53,7 +53,7 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2201.05106"><span><b>On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
 <span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
-<span><i> Electronic Journal of Combinatorics </i>, to appear </span><br>
+<span><i> Electronic Journal of Combinatorics </i>, 31 (2024), #P1.70 </span><br>
 <br>
 <a href="https://arxiv.org/abs/1905.03811"><span><b>Long rainbow arithmetic progressions,</b></span></a> <br>
 <span>with J. Balogh and W. Linz, </span><br>
