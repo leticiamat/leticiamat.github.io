@@ -47,6 +47,10 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span>with A. Liebenau, W. Mendonça and J. Skokan </span><br>
 <span><i> Random Structures and Algorithms </i>, 62 (2023), 1035-1055 </span><br>
 <br>
+<a href="https://arxiv.org/abs/2402.05060"><span><b>On multicolor Turán numbers,</b></span></a> <br>
+<span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
+<span>SIAM Journal on Discrete Mathematics, to appear </span><br>
+<br>
 <a href="https://arxiv.org/abs/2201.05106"><span><b>On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
 <span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
 <span><i> Electronic Journal of Combinatorics </i>, to appear </span><br>
@@ -65,10 +69,6 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
-<span>submitted </span><br>
-<br> 
-<a href="https://arxiv.org/abs/2402.05060"><span><b>On multicolor Turán numbers,</b></span></a> <br>
-<span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
 <span>submitted </span><br>
 <br> 
 <a href="https://arxiv.org/abs/2405.09486"><span><b>Subgraphs of random graphs in hereditary families,</b></span></a> <br>
