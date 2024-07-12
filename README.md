@@ -59,6 +59,10 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span>with J. Balogh and W. Linz, </span><br>
 <span><i> Journal of Combinatorics </i>, 12 (2021), 547–550 </span><br>
 <br>
+<a href="https://arxiv.org/abs/2407.04492"><span><b>On the number of sets with small sumset,</b></span></a> <br>
+<span>with D. Liu and T. Szabó, </span><br>
+<span>submitted </span><br>
+<br>
 <a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
 <span>with S. Griffiths, </span><br>
 <span>submitted </span><br>
