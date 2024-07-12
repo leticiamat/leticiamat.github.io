@@ -31,6 +31,26 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br> 
 ### Research:
 
+<a href="https://arxiv.org/abs/2407.04492"><span><b>On the number of sets with small sumset,</b></span></a> <br>
+<span>with D. Liu and T. Szabó, </span><br>
+<span>submitted </span><br>
+<br>
+<a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
+<span>with S. Griffiths, </span><br>
+<span>submitted </span><br>
+<br>
+<a href="https://arxiv.org/abs/2307.09446"><span><b>Local central limit theorem for triangle counts in sparse random graphs,</b></span></a> <br>
+<span>with P. Araujo, </span><br>
+<span>submitted </span><br>
+<br>
+<a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
+<span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
+<span>submitted </span><br>
+<br> 
+<a href="https://arxiv.org/abs/2405.09486"><span><b>Subgraphs of random graphs in hereditary families,</b></span></a> <br>
+<span>with A. Clifton, H. Liu and M. Zheng, </span><br>
+<span>submitted </span><br>
+<br>
 <a href="https://arxiv.org/abs/1904.11478"><span><b>On the singularity of random symmetric matrices,</b></span></a> <br>
 <span>with M. Campos, R. Morris and N. Morrison,</span><br>
 <span><i>Duke Mathematical Journal </i>, 170 (2021), 881-907 </span><br>
@@ -58,26 +78,6 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <a href="https://arxiv.org/abs/1905.03811"><span><b>Long rainbow arithmetic progressions,</b></span></a> <br>
 <span>with J. Balogh and W. Linz, </span><br>
 <span><i> Journal of Combinatorics </i>, 12 (2021), 547–550 </span><br>
-<br>
-<a href="https://arxiv.org/abs/2407.04492"><span><b>On the number of sets with small sumset,</b></span></a> <br>
-<span>with D. Liu and T. Szabó, </span><br>
-<span>submitted </span><br>
-<br>
-<a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
-<span>with S. Griffiths, </span><br>
-<span>submitted </span><br>
-<br>
-<a href="https://arxiv.org/abs/2307.09446"><span><b>Local central limit theorem for triangle counts in sparse random graphs,</b></span></a> <br>
-<span>with P. Araujo, </span><br>
-<span>submitted </span><br>
-<br>
-<a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
-<span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
-<span>submitted </span><br>
-<br> 
-<a href="https://arxiv.org/abs/2405.09486"><span><b>Subgraphs of random graphs in hereditary families,</b></span></a> <br>
-<span>with A. Clifton, H. Liu and M. Zheng, </span><br>
-<span>submitted </span><br>
 <br>
 ### Teaching:
 
