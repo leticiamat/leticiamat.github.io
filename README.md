@@ -18,7 +18,7 @@ Office: 2/212
 <br>
 e-mail: mattos (at) uni-heidelberg (dot) de
 <br> 
-<a href="https://arxiv.org/search/math?searchtype=author&query=Mattos,+L"><span>arxiv</span></a> <br>
+<a href="https://arxiv.org/a/mattos_l_1.html"><span>arxiv</span></a> <br>
 <br> 
 ### About me:
 
