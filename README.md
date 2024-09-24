@@ -51,13 +51,13 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span>with A. Clifton, H. Liu and M. Zheng, </span><br>
 <span>submitted </span><br>
 <br>
-<a href="https://arxiv.org/abs/1904.11478"><span><b>On the singularity of random symmetric matrices,</b></span></a> <br>
-<span>with M. Campos, R. Morris and N. Morrison,</span><br>
-<span><i>Duke Mathematical Journal </i>, 170 (2021), 881-907 </span><br>
-<br>
 <a href="https://arxiv.org/abs/2209.00140"><span><b>New lower bounds for essential covers of the cube,</b></span></a> <br>
 <span>with I. Araujo and J. Balogh,</span><br>
 <span><i> Israel Journal of Mathematics </i>, to appear </span><br>
+<br>
+<a href="https://arxiv.org/abs/1904.11478"><span><b>On the singularity of random symmetric matrices,</b></span></a> <br>
+<span>with M. Campos, R. Morris and N. Morrison,</span><br>
+<span><i>Duke Mathematical Journal </i>, 170 (2021), 881-907 </span><br>
 <br>
 <a href="https://arxiv.org/abs/2107.14798"><span><b>Counting r-graphs without forbidden configurations,</b></span></a> <br>
 <span>with J. Balogh and F. C. Clemen </span><br>
