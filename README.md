@@ -69,7 +69,7 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2402.05060"><span><b>On multicolor Turán numbers,</b></span></a> <br>
 <span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
-<span>SIAM Journal on Discrete Mathematics, to appear </span><br>
+<span>SIAM Journal on Discrete Mathematics, 38 (2024), 2297–2311 </span><br>
 <br>
 <a href="https://arxiv.org/abs/2201.05106"><span><b>On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
 <span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
