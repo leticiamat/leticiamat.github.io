@@ -10,21 +10,23 @@ title: Discrete Structures I
 
 
 
-# Lecture 1: The Basics of Graph Theory
+# Lecture 1: The basics of Graph Theory
 
 Graphs provide a simple way to represent and study relationships between different objects. 
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition:</strong> 
+    <strong>Definition (Graphs):</strong> 
 
-A graph is a pair of sets $(V, E)$, where $V$ is a finite set and $E$ is a set of unordered pairs of elements of $V$. That is, 
+A graph is a pair of sets $G = (V, E)$, where $V=V(G)$ is a finite set and $E=E(G)$ is a set of unordered pairs of elements of $V$. That is, 
 $$ E \subseteq \{ \{u, v\} \mid u \neq v, u, v \in V \}. $$
 $V$ is called the set of vertices, and $E$ is the set of edges.
-</div>
+We often write $uv$ or $vu$ for an edge $\{u,v\}$.
+</div> 
+<br>
 
+Sometimes, the number $v(G):=|V(G)|$ is referred to as the *order* of $G$ and the number $e(G) := |E(G)|$ is referred to as the *size* of $G$.
 
-
-This structure can model a wide variety of real-world situations and allows us to solve many different types of problems.
+Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
 
 **Social Networks**: Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge. Graphs help us understand how people are connected, who are the most influential people, or how information spreads.
@@ -34,6 +36,20 @@ They are particularly useful for modeling:
 **Scheduling Management**: 
  Imagine a train schedule, where trains have to be run at certain times.
  Here, the trains are the vertices, and if two of them overlap in time, there is an edge between them.
- The goal is to find the minimum number of crews needed to run all the trains without any conflicts. Graph colorings can be used to solve type of problem. See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
+ The goal is to find the minimum number of crews needed to run all the trains without any conflicts. Graph colorings can be used to solve this type of problem. See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
 
  **Graphs are a very versatile tool for modelling all kinds of problems, but they are also an interesting mathematical object in their own right.**
+
+ Before we delve into the puzzles and problems of graph theory, we need to establish some vocabulary to facilitate our communication.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition (Adjacency, incidence, endpoints):</strong> 
+
+Two vertices $u,v$ are **adjacent** in a graph $G$ if $uv\in E(G)$. 
+We say that $u$ and $v$ are **endpoints** of the edge $uv$, and we say that an edge $e \in E(G)$ is **incident** with a vertex $v$ if $v\in e$.
+</div> 
+<br>
+
+
+
+
