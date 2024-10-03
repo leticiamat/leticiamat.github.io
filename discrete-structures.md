@@ -14,16 +14,12 @@ title: Discrete Structures I
 
 Graphs provide a simple way to represent and study relationships between different objects. 
 
-> **Definition:** A graph is a pair of sets $(V, E)$, where $V$ is a finite set and $E$ is a set of unordered pairs of elements of $V$. That is, \(a\)
-> $$
-E \subseteq \{ \{u, v\} \mid u \neq v, u, v \in V \}.
-> $$
-> $V$ is called the set of vertices, and $E$ is the set of edges.
-
-
-
 <div style="border:1px solid; padding:10px">
-    <strong>Definition:</strong> A graph is a mathematical structure used to model pairwise relations between objects. $$a$$ and $b$ are called the vertices of the graph, and the edge $\{a, b\}$ represents the relation between them.
+    <strong>Definition:</strong> 
+
+A graph is a pair of sets $(V, E)$, where $V$ is a finite set and $E$ is a set of unordered pairs of elements of $V$. That is, 
+$$ E \subseteq \{ \{u, v\} \mid u \neq v, u, v \in V \}. $$
+$V$ is called the set of vertices, and $E$ is the set of edges.
 </div>
 
 
