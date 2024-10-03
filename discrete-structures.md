@@ -23,9 +23,6 @@ $V$ is called the set of vertices, and $E$ is the set of edges.
 We often write $uv$ or $vu$ for an edge $\{u,v\}$.
 </div> <br>
 
-So
-
-
 Sometimes $v(G) = |V(G)|$ is called the *order* of the graph $G$ and $e(G) = |E(G)|$ is called the *size* of the graph $G$.
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
