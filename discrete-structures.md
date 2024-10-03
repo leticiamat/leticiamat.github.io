@@ -22,11 +22,9 @@ $$ E \subseteq \{ \{u, v\} \mid u \neq v, u, v \in V \}. $$
 $V$ is called the set of vertices, and $E$ is the set of edges.
 We often write $uv$ or $vu$ for an edge $\{u,v\}$.
 </div> 
-
 <br>
 
-
-Sometimes, the number $v(G) \coloneqq |V(G)|$ is referred to as the *order* of $G$ and the number $e(G) \coloneqq |E(G)|$ is referred to as the *size* of $G$.
+Sometimes, the number $v(G) = |V(G)|$ is referred to as the order of the graph $G$, and the number 
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
