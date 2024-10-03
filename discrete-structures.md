@@ -2,16 +2,18 @@
 title: Discrete Structures I
 ---
 
-<!-- Load MathJax -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body);"></script>
+
 
 
 # Lecture 1: The Basics of Graph Theory
 
 Graphs provide a simple way to represent and study relationships between different objects. 
 
-> **Definition:** A graph is a pair of sets $(V, E)$, where $V$ is a finite set and $E$ is a set of unordered pairs of elements of $V$. That is,
+> **Definition:** A graph is a pair of sets $(V, E)$, where $V$ is a finite set and $E$ is a set of unordered pairs of elements of $V$. That is, \(a\)
 > $$
 E \subseteq \{ \{u, v\} \mid u \neq v, u, v \in V \}.
 > $$
