@@ -1,7 +1,2 @@
-aadfadfas
+# Lecture 1
 
-teste
-
-sdfsfs
-
-# sdsdfsfsdfsdfs
