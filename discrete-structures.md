@@ -47,8 +47,7 @@ They are particularly useful for modeling:
 
 Two vertices $u,v$ are <strong>adjacent</strong> in a graph $G$ if $uv\in E(G)$. 
 We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we say that an edge $e \in E(G)$ is <strong>incident</strong> with a vertex $v$ if $v\in e$.
-</div> 
-<br>
+</div><br>
 
 Local properties are important for understanding global properties of a graph. To explore this, we need to define the degree of a vertex.
 
@@ -65,3 +64,14 @@ We refer to it as the <strong>neighbourhood</strong> of $v$.
 The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of $v$. That is, $d_G(v) = \mid N_G(v) \mid$.
 </div> 
 <br>
+
+Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
+
+<div style="border:4px solid; padding:10px">
+    <strong>The Handshaking lemma:</strong> 
+
+For every graph $G$ we have
+$$
+\sum_{v\in V(G)} d_G(v) = 2e(G).
+$$
+</div><br>
