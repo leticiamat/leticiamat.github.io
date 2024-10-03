@@ -27,6 +27,8 @@ Sometimes $v(G) = |V(G)|$ is called the *order* of the graph $G$ and $e(G) = |E(
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
+Sometimes $v(G) = |V(G)|$ is called the *order* of the graph $G$ and $e(G) = |E(G)|$ is called the *size* of the graph $G$.
+a
 
 **Social Networks**: Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge. Graphs help us understand how people are connected, who are the most influential people, or how information spreads.
 
