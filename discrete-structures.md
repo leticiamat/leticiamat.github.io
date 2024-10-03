@@ -75,3 +75,10 @@ $$
 \sum_{v\in V(G)} d_G(v) = 2e(G).
 $$
 </div><br>
+
+<details>
+  <summary>Proof</summary>
+  <br>
+  to be done
+  
+</details>
