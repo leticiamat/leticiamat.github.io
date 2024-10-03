@@ -87,7 +87,6 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 
 2023/2: [Introduction to Combinatorics](https://lmattos.web.illinois.edu/math-413/) (MATH 413, two sections) at UIUC
 
-Here is the [Discrete Structures](discrete-structures.md) with more information.
 teste
 
 <br>
