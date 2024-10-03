@@ -24,7 +24,7 @@ We often write $uv$ or $vu$ for an edge $\{u,v\}$.
 </div> 
 <br>
 
-Sometimes, the number $v(G):=|V(G)|$ is referred to as the *order* of $G$ and the number $e(G) := |E(G)|$ is referred to as the *size* of $G$.
+Sometimes, the number $v(G) := |V(G)|$ is referred to as the *order* of $G$ and the number $e(G) := |E(G)|$ is referred to as the *size* of $G$.
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
@@ -45,8 +45,8 @@ They are particularly useful for modeling:
 <div style="border:1px solid; padding:10px">
     <strong>Definition (Adjacency, incidence, endpoints):</strong> 
 
-Two vertices $u,v$ are **adjacent** in a graph $G$ if $uv\in E(G)$. 
-We say that $u$ and $v$ are **endpoints** of the edge $uv$, and we say that an edge $e \in E(G)$ is **incident** with a vertex $v$ if $v\in e$.
+Two vertices $u,v$ are <strong>adjacent</strong> in a graph $G$ if $uv\in E(G)$. 
+We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we say that an edge $e \in E(G)$ is <strong>incident</strong> with a vertex $v$ if $v\in e$.
 </div> 
 <br>
 
