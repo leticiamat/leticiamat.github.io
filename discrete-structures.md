@@ -1,3 +1,12 @@
+---
+title: Discrete Structures I
+---
+
+<!-- Load MathJax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 # Lecture 1: The Basics of Graph Theory
 
 Graphs provide a simple way to represent and study relationships between different objects. 
