@@ -23,7 +23,7 @@ $V$ is called the set of vertices, and $E$ is the set of edges.
 We often write $uv$ or $vu$ for an edge $\{u,v\}$.
 </div> <br>
 
-Sometimes $$ v(G) = |V(G)| $$ is called the *order* of the graph $G$ and $$e(G) = \mid E(G)\mid$$ is called the *size* of the graph $G$.
+Sometimes $v(G) = \mid V(G) \mid$ is called the *order* of the graph $G$ and $e(G) = \mid E(G)\mid$ is called the *size* of the graph $G$.
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
@@ -36,7 +36,7 @@ They are particularly useful for modeling:
 **Scheduling Management**: 
  Imagine a train schedule, where trains have to be run at certain times.
  Here, the trains are the vertices, and if two of them overlap in time, there is an edge between them.
- The goal is to find the minimum number of crews needed to run all the trains without any conflicts. Graph colorings can be used to solve this type of problem. See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
+ The goal is to find the minimum number of crews needed to run all the trains without any conflicts. Graph colourings can be used to solve this type of problem. See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
 
  **Graphs are a very versatile tool for modelling all kinds of problems, but they are also an interesting mathematical object in their own right.**
 
@@ -50,4 +50,18 @@ We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we 
 </div> 
 <br>
 
+Local properties are important for understanding global properties of a graph. To explore this, we need to define the degree of a vertex.
 
+<div style="border:1px solid; padding:10px">
+    <strong>Definition (Degree and neighbourhood):</strong> 
+
+For a graph $G$ and a vertex $v\in V(G)$,
+we say $u\in V(G)$ is a <strong>neighbour</strong> of $v$ if $uv\in E(G)$.
+The set of all neighbours of $v$ is denoted by 
+$$
+N_G(v) = \{ u \in V(G) \mid uv \in E(G) \}.
+$$ 
+We refer to it as the <strong>neighbourhood</strong> of $v$.
+The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of $v$. That is, $d_G(v) = \mid N_G(v) \mid$.
+</div> 
+<br>
