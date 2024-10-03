@@ -31,7 +31,7 @@ They are particularly useful for modeling:
 
 **Social Networks**: Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge. Graphs help us understand how people are connected, who are the most influential people, or how information spreads.
 
-**Transportation Networks**: In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest path from one city to another (e.g., for a GPS system), or planning a route that visits several cities with the least amount of travel (like the [Traveling Salesman Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw)).
+**Transportation Networks**: In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest path from one city to another (e.g., for a GPS system), or planning a route that visits several cities with the least amount of travel (like the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw)).
 
 **Scheduling Management**: 
  Imagine a train schedule, where trains have to be run at certain times.
