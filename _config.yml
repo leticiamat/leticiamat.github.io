@@ -1,2 +1,6 @@
 name: leticia's site
 title: null
+
+exclude:
+
+discrete-structures.html
