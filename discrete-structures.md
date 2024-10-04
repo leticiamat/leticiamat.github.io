@@ -97,9 +97,9 @@ $$
   $$
 </details><br>
 
-Just with this lemma, we can already solve some one simple problem:)
+Just with this lemma, we can already solve one simple problem:)
 
-<div style="border:1px solid; padding:10px">
+<div style="border:1px solid #007BFF; padding:10px">
     <strong>Problem 1:</strong>
 
 Prove that in a graph $G$ there are an even number of vertices of odd degree.
@@ -118,5 +118,5 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
   $$
   \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}. \quad \square
   $$ 
-  <span style="float:right;">&#9633;</span>
 </details>
+
