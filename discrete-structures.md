@@ -282,7 +282,7 @@ For every non-negative integer $d$, there are infinitely many graphs $G$ such th
 </div>
 <br>
 
-The proof of this lemma follows directly from the construction of **hypercubes**.
+The proof of this lemma follows directly from the construction of **hypercubes** or **complete bipartite graphs**.
 
 <div style="border:1px solid; padding:10px">
 <strong> Definition 4 (Hypercube) :</strong>
