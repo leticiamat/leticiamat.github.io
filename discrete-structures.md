@@ -111,7 +111,7 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
   <br>
   
   Let $V_{\text{odd}}$ be the set of vertices of odd degree and $V_{\text{even}}$ be the set of vertices of even degree in $G$. 
-  By the **Handshaking Lemma**, we have
+  By the <strong>Handshaking Lemma</strong>, we have
   $$
   \sum_{v\in V_{\text{odd}}} d_G(v) + \sum_{v\in V_{\text{even}}} d_G(v) = 2e(G). 
   $$
@@ -139,7 +139,7 @@ For every non-negative integer $d$, there are infinitely many graphs $G$ such th
 The proof of this lemma follows directly from the construction of **hypercubes**.
 
 <div style="border:1px solid; padding:10px">
-<strong> Definition (Hypercube) :</strong>
+<strong> Definition 4 (Hypercube) :</strong>
 
 The $d$-dimensional hypercube, denoted as $Q_d$, is a graph whose vertex set consists of all binary strings of length $d$, represented by $\{0,1\}^d$. 
 Two vertices in this graph are adjacent if and only if they differ in exactly one coordinate.
@@ -166,12 +166,28 @@ For a non-negative integer $d$, a graph $G$ is called $d$-regular if $d_G(v) = d
 <br>
 
 
-Given non-negative integers $n$ and $d$, can we always find a $d$-regular graph with $n$ vertices?
+Given $n \in \mathbb{N}_{\ge 1}$ and $d \in \mathbb{N}_{\ge 0}$, can we always find a $d$-regular graph with $n$ vertices?
 The answer is: it depends. The degree $d$ should be at most $n-1$, for example. By the **Handshaking Lemma**, we should also have $dn$ even. 
 But... are these conditions sufficient?
-The answer is yes!
+The answer is yes! Showing this is a hard problem.
 
-------------
+<div style="border:1px solid #007BFF; padding:10px">
+<strong> Problem 2 :</strong>
+
+Let $n \in \mathbb{N}_{\ge 1}$ and $d \in \mathbb{N}_{\ge 0}$. 
+Show that there exists a $d$-regular graph with $n$ vertices if and only if $dn$ is even and $d\leq n-1$.
+</div>
+<br>
+
+<details>
+  <summary>Proof</summary>
+  <br> 
+  
+  By the discussion above, we already know that if there exists a $d$-regular graph with $n$ vertices, then $dn$ is even and $d\leq n-1$.
+  For the converse, see the post of Yuval Filmus on [Math Stack Exchange](https://math.stackexchange.com/questions/1163314/degree-of-vertices-in-a-graph). $\quad \square$
+</details><br>
+
+
 
 Well, not every graph is regular. 
 But we can nevertheless always find a *reasonable* regular graph *containing* it. 
