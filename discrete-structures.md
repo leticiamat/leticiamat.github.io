@@ -127,7 +127,8 @@ To model these problems precisely, the following definitions are useful.
 <div style="border:1px solid; padding:10px">
     <strong>Definition 4 (Subgraph):</strong> 
 
-  A graph $H$ is a <strong>subgraph</strong> of a graph $G$ if $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$. We write $H\subseteq G$. We also say that $G$ contains $H$, and we write $G\supseteq H$.
+  A graph $H$ is a <strong>subgraph</strong> of a graph $G$ if $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$. We write $H\subseteq G$. We also say that $G$ contains $H$, and we write $G\supseteq H$. <br>
+
 
   For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$. If $F=\{uv\}$, then we write $G-uv$.
 </div><br>
@@ -136,9 +137,9 @@ To model these problems precisely, the following definitions are useful.
 <div style="border:1px solid; padding:10px">
     <strong>Definition 5 (Induced subgraph):</strong> 
 
-If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then we say that $H$ is an <strong>induced</strong> subgraph of $G$.
+If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then we say that $H$ is an <strong>induced</strong> subgraph of $G$.<br>
 
-For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.
+For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.<br>
 
 We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply write $G-u$.
 </div><br>
@@ -152,7 +153,7 @@ The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)
 <div style="border:1px solid; padding:10px">
     <strong>Definition 7 (Isomorphism):</strong> 
 
-An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H)$.
+An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H)$.<br>
 
 If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
 </div><br>
