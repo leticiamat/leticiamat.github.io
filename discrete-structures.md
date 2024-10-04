@@ -15,7 +15,7 @@ title: Discrete Structures I
 Graphs provide a simple way to represent and study relationships between different objects. 
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition (Graphs):</strong> 
+    <strong>Definition 1 (Graphs):</strong> 
 
 A graph is a pair of sets $G = (V, E)$, where $V=V(G)$ is a finite set and $E=E(G)$ is a set of unordered pairs of elements of $V$. That is, 
 $$ E \subseteq \{ \{u, v\} \mid u \neq v, u, v \in V \}. $$
@@ -43,7 +43,7 @@ They are particularly useful for modeling:
  Before we delve into the puzzles and problems of graph theory, we need to establish some vocabulary to facilitate our communication.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition (Adjacency, incidence, endpoints):</strong> 
+    <strong>Definition 2 (Adjacency, incidence, endpoints):</strong> 
 
 Two vertices $u,v$ are <strong>adjacent</strong> in a graph $G$ if $uv\in E(G)$. 
 We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we say that an edge $e \in E(G)$ is <strong>incident</strong> with a vertex $v$ if $v\in e$.
@@ -52,7 +52,7 @@ We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we 
 Local properties are important for understanding global properties of a graph. To explore this, we need to define the degree of a vertex.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition (Degree and neighbourhood):</strong> 
+    <strong>Definition 3 (Degree and neighbourhood):</strong> 
 
 For a graph $G$ and a vertex $v\in V(G)$,
 we say $u\in V(G)$ is a <strong>neighbour</strong> of $v$ if $uv\in E(G)$.
@@ -68,7 +68,7 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
 
 <div style="border:4px solid; padding:10px">
-    <strong> The Handshaking lemma:</strong>
+    <strong> Lemma 1 (The Handshaking lemma):</strong>
 
 For every graph $G$ we have
 $$
@@ -120,3 +120,37 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
   $$ 
 </details>
 
+
+The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
+This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
+
+There are many questions we can ask about degree sequences and some of them can be quite challenging. 
+One natural question is: 
+given a non-negative integer $d$, are there graphs where each vertex has a degree of $d$?
+
+
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 2 (same degree):</strong>
+
+For every non-negative integer $d$, there are infinitely many graphs $G$ such that $d_G(v) = d$ for all $v\in V(G)$.
+</div>
+<br>
+
+The proof of this lemma follows directly from the construction of **hypercubes**.
+
+<div style="border:1px solid; padding:10px">
+<strong> Definition 4 (Hypercube) :</strong>
+
+The $d$-dimensional hypercube, denoted as $Q_d$, is a graph whose vertex set consists of all binary strings of length $d$, represented by $\{0,1\}^d$. 
+Two vertices in this graph are adjacent if and only if they differ in exactly one coordinate.
+
+</div>
+<br>
+
+<details>
+  <summary>Proof of Lemma 2 </summary>
+  <br>
+  
+  Each vertex in the hypercube $Q_d$ has degree $d$. 
+  To construct infinitely many graphs in which every vertex has degree $d$, one can take disjoint unions of multiple copies of $Q_d$. This process can be repeated as many times as we want. $\quad \square$
+</details>
