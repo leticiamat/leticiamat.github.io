@@ -25,6 +25,10 @@ We often write $uv$ or $vu$ for an edge $\{u,v\}$.
 
 Sometimes $v(G) = \mid V(G) \mid$ is called the *order* of the graph $G$ and $e(G) = \mid E(G)\mid$ is called the *size* of the graph $G$.
 
+## How to represent a graph to a human:
+
+![How-to-represent-a-graph](graph-1.jpg)
+
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
 
