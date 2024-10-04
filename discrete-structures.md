@@ -87,6 +87,8 @@ Show that in any group of six people, there are either three people who are all 
   Up to relabelling, we can then assume that the points $2, 3$ and $4$ are connected to $1$ by blue line segments.
 
  ![alt text](ramsey-1.jpg)
+
+ <img src="ramsey-1.jpg" alt="ramsey-1" loading="lazy">
   
   If any of the line segments connecting $2$ to $3$, $3$ to $4$ or $4$ to $2$ is blue, then we are done, as we create a blue "triangle" together with the point $1$.
   If all of them are red, then we have a red "triangle" with the points $2, 3$ and $4$.
