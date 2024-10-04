@@ -25,6 +25,34 @@ We often write $uv$ or $vu$ for an edge $\{u,v\}$.
 
 Sometimes $v(G) = \mid V(G) \mid$ is called the *order* of the graph $G$ and $e(G) = \mid E(G)\mid$ is called the *size* of the graph $G$.
 
+
+ **Graphs are a very versatile tool for modelling all kinds of problems, but they are also an interesting mathematical object in their own right.**
+
+ Before we delve into the puzzles and problems of graph theory, we need to establish some vocabulary to facilitate our communication.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 2 (Adjacency, incidence, endpoints):</strong> 
+
+Two vertices $u,v$ are <strong>adjacent</strong> in a graph $G$ if $uv\in E(G)$. 
+We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we say that an edge $e \in E(G)$ is <strong>incident</strong> with a vertex $v$ if $v\in e$.
+</div><br>
+
+Local properties are important for understanding global properties of a graph. To explore this, we need to define the degree of a vertex.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 3 (Degree and neighbourhood):</strong> 
+
+For a graph $G$ and a vertex $v\in V(G)$,
+we say $u\in V(G)$ is a <strong>neighbour</strong> of $v$ if $uv\in E(G)$.
+The set of all neighbours of $v$ is denoted by 
+$$
+N_G(v) = \{ u \in V(G) \mid uv \in E(G) \}.
+$$ 
+We refer to it as the <strong>neighbourhood</strong> of $v$.
+The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of $v$. That is, $d_G(v) = \mid N_G(v) \mid$.
+</div> 
+<br>
+
 ## How to represent a graph to a human:
 
 ![how-to-represent-a-graph](graph-1.jpg)
@@ -84,25 +112,26 @@ Show that in any group of six people, there are either three people who are all 
   <summary>Proof</summary>
   <br>
 
-  Let us label the six people as $1, 2, 3, 4, 5$ and $6$ and represent them as points in the plane.
-  Draw a blue line segment connecting two people if they are friends, and a red line segment if they are strangers.
-  The goal is then to show that there are three points connected by line segments of the same colour.
+  Let us label the six people as $1, 2, 3, 4, 5$ and $6$ and represent them as vertices in the plane.
+  Draw a blue edge connecting two people if they are friends, and a red edge if they are strangers.
+  The goal is then to show that there are three vertices connected by edges of the same colour.
 
-  There are $5$ line segments "leaving" each point.
-  By the [Pigeonhole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principle), at least three of these line segments "leaving" the point $1$ must be of the same colour.
+  There are $5$ edges incident to each vertex.
+  By the [Pigeonhole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principle), the vertex $1$ has at least $3$ edges of the same colour.
   We have two cases: either this colour is blue or red.
   Let us assume it is blue (the other case is similar).
-  Up to relabelling, we can then assume that the points $2, 3$ and $4$ are connected to $1$ by blue line segments.
+  Up to relabelling, we can then assume that the vertices $2, 3$ and $4$ are connected to $1$ by blue edges.
 
  <img src="ramsey-1.jpg" alt="ramsey-1" loading="lazy">
   
-  If any of the line segments connecting $2$ to $3$, $3$ to $4$ or $4$ to $2$ is blue, then we are done, as we create a blue "triangle" together with the point $1$.
-  If all of them are red, then we have a red "triangle" with the points $2, 3$ and $4$.
+  If any of edges $23$, $34$ or $24$ is blue, then we are done, as we create a blue "triangle" together with the vertex $1$.
+  If all of them are red, then we have a red "triangle" with vertices $2, 3$ and $4$.
 
   Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.
 
-   <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy"> $\quad \square$
-
+   <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy"> 
+   
+   $\quad \square$
 </details><br>
 
 This problem is part of [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), one of the most important areas of combinatorics.
@@ -116,32 +145,6 @@ In transportation, cities can be represented as vertices, and roads or flights b
  Here, the trains are the vertices, and if two of them overlap in time, there is an edge between them.
  The goal is to find the minimum number of crews needed to run all the trains without any conflicts. Graph colourings can be used to solve this type of problem. See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
 
- **Graphs are a very versatile tool for modelling all kinds of problems, but they are also an interesting mathematical object in their own right.**
-
- Before we delve into the puzzles and problems of graph theory, we need to establish some vocabulary to facilitate our communication.
-
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 2 (Adjacency, incidence, endpoints):</strong> 
-
-Two vertices $u,v$ are <strong>adjacent</strong> in a graph $G$ if $uv\in E(G)$. 
-We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we say that an edge $e \in E(G)$ is <strong>incident</strong> with a vertex $v$ if $v\in e$.
-</div><br>
-
-Local properties are important for understanding global properties of a graph. To explore this, we need to define the degree of a vertex.
-
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 3 (Degree and neighbourhood):</strong> 
-
-For a graph $G$ and a vertex $v\in V(G)$,
-we say $u\in V(G)$ is a <strong>neighbour</strong> of $v$ if $uv\in E(G)$.
-The set of all neighbours of $v$ is denoted by 
-$$
-N_G(v) = \{ u \in V(G) \mid uv \in E(G) \}.
-$$ 
-We refer to it as the <strong>neighbourhood</strong> of $v$.
-The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of $v$. That is, $d_G(v) = \mid N_G(v) \mid$.
-</div> 
-<br>
 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
 See the [video](https://www.youtube.com/watch?v=8siY3EjTXxE) for an interactive proof.
