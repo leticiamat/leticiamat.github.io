@@ -55,7 +55,36 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 
 ## How to represent a graph to a human
 
-![how-to-represent-a-graph](graph-1.jpg)
+![how-to-represent-a-graph](graph.jpg)
+
+<details>
+  <summary>Tap here for more details</summary>
+  <br>
+
+   The drawing above shows a graph $G$ with 
+$$
+V(G) = \{u_1, u_2, u_3, u_4, u_5\}
+$$ 
+and 
+$$
+E(G) = \{u_1u_2, u_1u_3, u_1u_4, u_2u_4, u_3u_4, u_3u_5, u_5u_6\}.
+$$
+
+The degrees of each vertex are:
+$$
+d_G(u_1) = d_G(u_3) = d_G(u_4) = 3, \quad d_G(u_2) = d_G(u_5) = 2, \quad d_G(u_6) = 1.
+$$
+
+The neighbourhoods of each vertex are:
+$$
+N_G(u_1) = \{u_2, u_3, u_4\}, \quad N_G(u_2) = \{u_1, u_4\}, \quad N_G(u_3) = \{u_1, u_4, u_5\},
+$$
+$$
+N_G(u_4) = \{u_1, u_2, u_3\}, \quad N_G(u_5) = \{u_3, u_6\}, \quad N_G(u_6) = \{u_5\}.
+$$
+</details><br>
+
+
 
 ## How to represent a graph to a computer
 
@@ -94,6 +123,30 @@ $$
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling social and transportation networks, scheduling management, and computer science problems. 
 To model these problems precisely, the following definitions are useful.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 4:</strong> 
+    
+  Let $G$ and $H$ be graphs.
+  
+  - If $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$, then $H$ is a subgraph of $G$ and we write $H\subseteq G$.
+
+  - If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then $H$ is an induced subgraph of $G$.
+
+  - For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.
+  
+  - We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply write $G-u$.
+	For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$.
+  Again, if $F=\{uv\}$, then we write $G-uv$.
+
+  - The graph $H$ is the complement of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. 
+  The complement of $G$ is denoted by $\bar{G}$. 
+
+  - $G$ and $H$ are isomorphic if there is a bijection between the vertices that preserves edges.
+
+</div><br>
+
+
 
 
 ### Social Networks
