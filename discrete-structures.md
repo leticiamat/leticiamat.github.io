@@ -28,7 +28,7 @@ Sometimes $v(G) = \mid V(G) \mid$ is called the *order* of the graph $G$ and $e(
 
  **Graphs are a very versatile tool for modelling all kinds of problems, but they are also an interesting mathematical object in their own right.**
 
- Before we delve into the puzzles and problems of graph theory, we need to establish some vocabulary to facilitate our communication.
+ Before we delve into how to use graphs to model problems, we need to establish some vocabulary to facilitate our communication.
 
 <div style="border:1px solid; padding:10px">
     <strong>Definition 2 (Adjacency, incidence, endpoints):</strong> 
@@ -37,7 +37,7 @@ Two vertices $u,v$ are <strong>adjacent</strong> in a graph $G$ if $uv\in E(G)$.
 We say that $u$ and $v$ are <strong>endpoints</strong> of the edge $uv$, and we say that an edge $e \in E(G)$ is <strong>incident</strong> with a vertex $v$ if $v\in e$.
 </div><br>
 
-Local properties are important for understanding global properties of a graph. To explore this, we need to define the degree of a vertex.
+Local properties are important for understanding global properties of a graph. To explore this, the degree of a vertex is a fundamental concept.
 
 <div style="border:1px solid; padding:10px">
     <strong>Definition 3 (Degree and neighbourhood):</strong> 
@@ -53,11 +53,11 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 </div> 
 <br>
 
-## How to represent a graph to a human:
+## How to represent a graph to a human
 
 ![how-to-represent-a-graph](graph-1.jpg)
 
-## How to represent a graph to a computer:
+## How to represent a graph to a computer
 
 <div style="border:1px solid; padding:10px">
     <strong>Definition 2 (Adjacency matrix):</strong> 
@@ -92,7 +92,9 @@ $$
 ## Graphs as models and an initial glossary of terms
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
-They are particularly useful for modeling social and transportation networks, scheduling management, and computer science problems.
+They are particularly useful for modeling social and transportation networks, scheduling management, and computer science problems. 
+To model these problems precisely, the following definitions are useful.
+
 
 ### Social Networks
 
