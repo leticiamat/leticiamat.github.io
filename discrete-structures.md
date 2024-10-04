@@ -63,7 +63,7 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 
    The drawing above shows a graph $G$ with 
 $$
-V(G) = \{u_1, u_2, u_3, u_4, u_5\}
+V(G) = \{u_1, u_2, u_3, u_4, u_5, u_6\}
 $$ 
 and 
 $$
