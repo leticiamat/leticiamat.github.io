@@ -86,8 +86,6 @@ Show that in any group of six people, there are either three people who are all 
   Let us assume it is blue (the other case is similar).
   Up to relabelling, we can then assume that the points $2, 3$ and $4$ are connected to $1$ by blue line segments.
 
- ![alt text](ramsey-1.jpg)
-
  <img src="ramsey-1.jpg" alt="ramsey-1" loading="lazy">
   
   If any of the line segments connecting $2$ to $3$, $3$ to $4$ or $4$ to $2$ is blue, then we are done, as we create a blue "triangle" together with the point $1$.
@@ -95,7 +93,7 @@ Show that in any group of six people, there are either three people who are all 
 
   Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.
 
-  ![alt text](ramsey-2.jpg) $\quad \square$
+   <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy"> $\quad \square$
 
 </details><br>
 
