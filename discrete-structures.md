@@ -128,23 +128,32 @@ To model these problems precisely, the following definitions are useful.
     <strong>Definition 4:</strong> 
     
   Let $G$ and $H$ be graphs.
+  <ul><li> 
   
-  - If $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$, then $H$ is a subgraph of $G$ and we write $H\subseteq G$.
+  If $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$, then $H$ is a subgraph of $G$ and we write $H\subseteq G$.</li>
 
-  - If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then $H$ is an induced subgraph of $G$.
+<li> 
 
-  - For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.
+If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then $H$ is an induced subgraph of $G$.</li>
+
+<li>
+
+For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.</li>
   
-  - We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply write $G-u$.
-	For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$.
-  Again, if $F=\{uv\}$, then we write $G-uv$.
+<li>
 
-  - The graph $H$ is the complement of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. 
-  The complement of $G$ is denoted by $\bar{G}$. 
+We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply write $G-u$. For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$. Again, if $F=\{uv\}$, then we write $G-uv$.</li>
 
-  - $G$ and $H$ are isomorphic if there is a bijection between the vertices that preserves edges.
+<li>
 
+The graph $H$ is the complement of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}$.</li>
+
+<li>
+
+$G$ and $H$ are isomorphic if there is a bijection between the vertices that preserves edges.</li>
+</ul>
 </div><br>
+
 
 
 
