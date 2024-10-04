@@ -68,7 +68,7 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
 
 <div style="border:4px solid; padding:10px">
-    <a id="lemma1"></a> <strong> The Handshaking lemma:</strong>
+    <strong id="lemma1"> The Handshaking lemma:</strong>
 
 For every graph $G$ we have
 $$
@@ -99,7 +99,7 @@ $$
   
 </details><br>
 
-Just with this lemma, we can already solve some simple problems:)
+Just with this lemma, we can already solve some one simple problem:)
 
 <div style="border:1px solid; padding:10px">
     <strong>Problem 1:</strong>
