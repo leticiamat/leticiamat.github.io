@@ -68,13 +68,13 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
 
 <div style="border:4px solid; padding:10px">
-    <a name="handshaking"></a> <strong> The Handshaking lemma:</strong> 
+    <a id="lemma1"></a> <strong> The Handshaking lemma:</strong>
 
 For every graph $G$ we have
 $$
 \sum_{v\in V(G)} d_G(v) = 2e(G).
 $$
-</div><br>
+</div>
 
 <details>
   <summary>Proof</summary>
@@ -97,7 +97,7 @@ $$
   $$
 
   
-</details>
+</details><br>
 
 Just with this lemma, we can already solve some simple problems:)
 
@@ -105,14 +105,14 @@ Just with this lemma, we can already solve some simple problems:)
     <strong>Problem 1:</strong>
 
 Prove that in a graph $G$ there are an even number of vertices of odd degree.
-</div><br>
+</div>
 
 <details>
   <summary>Solution</summary>
   <br>
   
   Let $V_{\text{odd}}$ be the set of vertices of odd degree and $V_{\text{even}}$ be the set of vertices of even degree in $G$. 
-  By the [Handshaking Lemma](#handshaking), we have
+  By the [Handshaking Lemma](#lemma1), we have
   $$
   \sum_{v\in V_{\text{odd}}} d_G(v) + \sum_{v\in V_{\text{even}}} d_G(v) = 2e(G). 
   $$
