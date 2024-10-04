@@ -40,7 +40,11 @@ a_{ij} = \begin{cases} 1 & \text{if } v_i v_j \in E(G), \\ 0 & \text{otherwise}.
 $$
 </div> <br>
 
-![adjacency](adjacency.jpg)
+<details>
+  <summary>Tap here for a drawing</summary>
+  <br>
+   <img src="adjacency.jpg" alt="adjacency" loading="lazy">
+</details><br>
 
 <div style="border:1px solid; padding:10px">
     <strong>Definition 3 (Incidence matrix):</strong> 
@@ -51,7 +55,11 @@ b_{ij} = \begin{cases} 1 & \text{if } v_i \text{ is incident with } e_j, \\ 0 & 
 $$
 </div> <br>
 
-![alt text](incidence-1.jpg)
+<details>
+  <summary>Tap here for a drawing</summary>
+  <br>
+   <img src="incidence-1.jpg" alt="incidence" loading="lazy">
+</details><br>
 
 ## Graphs as models and an initial glossary of terms
 
