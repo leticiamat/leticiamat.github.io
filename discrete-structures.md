@@ -66,6 +66,7 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 <br>
 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
+See the [video](https://www.youtube.com/watch?v=8siY3EjTXxE) for an interactive proof.
 
 <div style="border:4px solid; padding:10px">
     <strong> Lemma 1 (The Handshaking lemma):</strong>
@@ -118,8 +119,7 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
   $$
   \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}. \quad \square
   $$ 
-</details>
-
+</details><br>
 
 The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
 This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
@@ -139,7 +139,7 @@ For every non-negative integer $d$, there are infinitely many graphs $G$ such th
 The proof of this lemma follows directly from the construction of **hypercubes**.
 
 <div style="border:1px solid; padding:10px">
-<strong> Definition 4 (Hypercube) :</strong>
+<strong> Definition (Hypercube) :</strong>
 
 The $d$-dimensional hypercube, denoted as $Q_d$, is a graph whose vertex set consists of all binary strings of length $d$, represented by $\{0,1\}^d$. 
 Two vertices in this graph are adjacent if and only if they differ in exactly one coordinate.
@@ -153,4 +153,33 @@ Two vertices in this graph are adjacent if and only if they differ in exactly on
   
   Each vertex in the hypercube $Q_d$ has degree $d$. 
   To construct infinitely many graphs in which every vertex has degree $d$, one can take disjoint unions of multiple copies of $Q_d$. This process can be repeated as many times as we want. $\quad \square$
-</details>
+</details><br>
+
+Graphs where every vertex has the same degree have a special name.
+
+<div style="border:1px solid; padding:10px">
+<strong> Definition 5 (regular graphs) :</strong>
+
+For a non-negative integer $d$, a graph $G$ is called $d$-regular if $d_G(v) = d$ for all $v\in V(G)$.
+
+</div>
+<br>
+
+
+Given non-negative integers $n$ and $d$, can we always find a $d$-regular graph with $n$ vertices?
+The answer is: it depends. The degree $d$ should be at most $n-1$, for example. By the **Handshaking Lemma**, we should also have $dn$ even. 
+But... are these conditions sufficient?
+The answer is yes!
+
+------------
+
+Well, not every graph is regular. 
+But we can nevertheless always find a *reasonable* regular graph *containing* it. 
+To formalize this idea, we first need to say what we mean by containing.
+
+tobedone
+- definicao de subgrafo
+- proposicao
+
+
+
