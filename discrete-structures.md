@@ -128,7 +128,7 @@ To model these problems precisely, the following definitions are useful.
     <strong>Definition 6 (Subgraph):</strong> 
 
   A graph $H$ is a <strong>subgraph</strong> of a graph $G$ if $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$ or $G\supseteq H$. 
-  We also say that $G$ contains $H$. <br><br>
+  We also say that $G$ contains $H.$ <br><br>
 
 
   For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$. If $F=\{uv\}$, then we write $G-uv$.
