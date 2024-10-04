@@ -130,11 +130,11 @@ To model these problems precisely, the following definitions are useful.
   Let $G$ and $H$ be graphs.
   <ul><li> 
   
-  If $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$, then $H$ is a subgraph of $G$ and we write $H\subseteq G$.</li>
+  If $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$, then $H$ is a <strong>subgraph</strong> of $G$ and we write $H\subseteq G$.</li>
 
 <li> 
 
-If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then $H$ is an induced subgraph of $G$.</li>
+If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then $H$ is an <strong>induced</strong> subgraph of $G$.</li>
 
 <li>
 
@@ -146,11 +146,11 @@ We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply 
 
 <li>
 
-The graph $H$ is the complement of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}$.</li>
+The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}$.</li>
 
 <li>
 
-$G$ and $H$ are isomorphic if there is a bijection between the vertices that preserves edges.</li>
+$G$ and $H$ are <strong>isomorphic</strong> if there is a bijection between the vertices that preserves edges.</li>
 </ul>
 </div><br>
 
