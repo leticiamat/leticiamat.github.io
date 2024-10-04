@@ -89,7 +89,7 @@ $$
 ## How to represent a graph to a computer
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 2 (Adjacency matrix):</strong> 
+    <strong>Definition 4 (Adjacency matrix):</strong> 
 
 For a graph $G = (V, E)$ with $V = \{v_1, v_2, \ldots, v_n\}$, the adjacency matrix of $G$ is the $n\times n$ matrix $A = (a_{ij})$ where
 $$
@@ -104,7 +104,7 @@ $$
 </details><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 3 (Incidence matrix):</strong> 
+    <strong>Definition 5 (Incidence matrix):</strong> 
 
 For a graph $G = (V, E)$ with $V = \{v_1, v_2, \ldots, v_n\}$ and $E = \{e_1, e_2, \ldots, e_m\}$, the incidence matrix of $G$ is the $n\times m$ matrix $B = (b_{ij})$ where
 $$
@@ -125,7 +125,7 @@ They are particularly useful for modeling social and transportation networks, sc
 To model these problems precisely, the following definitions are useful.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 4 (Subgraph):</strong> 
+    <strong>Definition 6 (Subgraph):</strong> 
 
   A graph $H$ is a <strong>subgraph</strong> of a graph $G$ if $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$ or $G\supseteq H$. 
   We also say that $G$ contains $H$. <br><br>
@@ -136,7 +136,7 @@ To model these problems precisely, the following definitions are useful.
 
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 5 (Induced subgraph):</strong> 
+    <strong>Definition 7 (Induced subgraph):</strong> 
 
 If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then we say that $H$ is an <strong>induced</strong> subgraph of $G$.<br><br>
 
@@ -146,15 +146,15 @@ We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply 
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 6 (Complement graph):</strong> 
+    <strong>Definition 8 (Complement graph):</strong> 
 
 The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}.$ 
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 7 (Isomorphism):</strong> 
+    <strong>Definition 9 (Isomorphism):</strong> 
 
-An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H)$.<br><br>
+An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H).$<br><br>
 
 If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
 </div><br>
