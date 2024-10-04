@@ -68,7 +68,7 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
 
 <div style="border:4px solid; padding:10px">
-    <strong id="lemma1"> The Handshaking lemma:</strong>
+    <strong> The Handshaking lemma:</strong>
 
 For every graph $G$ we have
 $$
@@ -93,10 +93,8 @@ $$
   $$
   Each $v\in V(G)$ belongs to precisely $d_G(v)$ pairs in $S$, so we also have
   $$
-  |S|=\sum_{v\in V(G)}d_G(v).
+  |S|=\sum_{v\in V(G)}d_G(v). \quad \square 
   $$
-
-  
 </details><br>
 
 Just with this lemma, we can already solve some one simple problem:)
@@ -112,12 +110,13 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
   <br>
   
   Let $V_{\text{odd}}$ be the set of vertices of odd degree and $V_{\text{even}}$ be the set of vertices of even degree in $G$. 
-  By the [Handshaking Lemma](#lemma1), we have
+  By the **Handshaking Lemma**, we have
   $$
   \sum_{v\in V_{\text{odd}}} d_G(v) + \sum_{v\in V_{\text{even}}} d_G(v) = 2e(G). 
   $$
   By analysing this equation modulo 2, we have
   $$
-  \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}.
-  $$
+  \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}. \quad \square
+  $$ 
+  <span style="float:right;">&#9633;</span>
 </details>
