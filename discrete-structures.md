@@ -53,15 +53,57 @@ $$
 
 ![alt text](incidence-1.jpg)
 
-
+## Graphs as models and an initial glossary of terms
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
-They are particularly useful for modeling:
+They are particularly useful for modeling social and transportation networks, scheduling management, and computer science problems.
 
+### Social Networks
 
-**Social Networks**: Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge. Graphs help us understand how people are connected, who are the most influential people, or how information spreads.
+ Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge. Graphs help us understand how people are connected, who are the most influential people, or how information spreads. 
 
-**Transportation Networks**: In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest path from one city to another (e.g., for a GPS system), or planning a route that visits several cities with the least amount of travel (like the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw)).
+ By using the language of graph theory, we can solve the following problem:
+
+<div style="border:1px solid; padding:10px">
+    <strong>Problem 1:</strong>
+
+Show that in any group of six people, there are either three people who are all friends with each other, or three people who are all strangers to each other.* Show that this is not true for five people.
+</div><br>
+
+*The relationship "friend" is symmetric, so if $A$ is a friend of $B$, then $B$ is a friend of $A$.
+
+<details>
+  <summary>Proof</summary>
+  <br>
+
+  Let us label the six people as $1, 2, 3, 4, 5$ and $6$ and represent them as points in the plane.
+  Draw a blue line segment connecting two people if they are friends, and a red line segment if they are strangers.
+  The goal is then to show that there are three points connected by line segments of the same colour.
+
+  There are $5$ line segments "leaving" each point.
+  By the [Pigeonhole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principle), at least three of these line segments "leaving" the point $1$ must be of the same colour.
+  We have two cases: either this colour is blue or red.
+  Let us assume it is blue (the other case is similar).
+  Up to relabelling, we can then assume that the points $2, 3$ and $4$ are connected to $1$ by blue line segments.
+
+  ![ramsey-1](ramsey-1.jpg)
+  
+  If any of the line segments connecting $2$ to $3$, $3$ to $4$ or $4$ to $2$ is blue, then we are done, as we create a blue "triangle" together with the point $1$.
+  If all of them are red, then we have a red "triangle" with the points $2, 3$ and $4$.
+
+  Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.
+
+  ![ramsey-2](ramsey-2.jpg)
+
+  $\quad \square$
+
+</details><br>
+
+This problem is part of [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), one of the most important areas of combinatorics.
+
+### Transportation Networks 
+
+In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest path from one city to another (e.g., for a GPS system), or planning a route that visits several cities with the least amount of travel (like the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw)).
 
 **Scheduling Management**: 
  Imagine a train schedule, where trains have to be run at certain times.
