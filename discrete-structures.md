@@ -125,38 +125,37 @@ They are particularly useful for modeling social and transportation networks, sc
 To model these problems precisely, the following definitions are useful.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 4:</strong> 
-    
-  Let $G$ and $H$ be graphs.
-  <ul><li> 
-  
-  If $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$, then $H$ is a <strong>subgraph</strong> of $G$ and we write $H\subseteq G$.</li>
+    <strong>Definition 4 (Subgraph):</strong> 
 
-<li> 
+  A graph $H$ is a <strong>subgraph</strong> of a graph $G$ if $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$. We write $H\subseteq G$. We also say that $G$ contains $H$, and we write $G\supseteq H$.
 
-If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then $H$ is an <strong>induced</strong> subgraph of $G$.</li>
-
-<li>
-
-For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.</li>
-  
-<li>
-
-We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply write $G-u$. For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$. Again, if $F=\{uv\}$, then we write $G-uv$.</li>
-
-<li>
-
-The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}$.</li>
-
-<li>
-
-$G$ and $H$ are <strong>isomorphic</strong> if there is a bijection between the vertices that preserves edges.</li>
-</ul>
+  For an edge set $F\subseteq E(G)$, we write $G-F$ for the graph $(V(G),E(G)\setminus F)$. If $F=\{uv\}$, then we write $G-uv$.
 </div><br>
 
 
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 5 (Induced subgraph):</strong> 
 
+If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then we say that $H$ is an <strong>induced</strong> subgraph of $G$.
 
+For a set $U \subseteq V(G)$, we write $G[U]$ for the subgraph induced by $U$; that is, its vertex set is $U$ and contains all edges of $G$ with both ends in $U$.
+
+We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply write $G-u$.
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 6 (Complement graph):</strong> 
+
+The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}.$ 
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 7 (Isomorphism):</strong> 
+
+An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H)$.
+
+If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
+</div><br>
 
 ### Social Networks
 
