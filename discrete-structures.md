@@ -27,7 +27,33 @@ Sometimes $v(G) = \mid V(G) \mid$ is called the *order* of the graph $G$ and $e(
 
 ## How to represent a graph to a human:
 
-![How-to-represent-a-graph](graph-1.jpg)
+![how-to-represent-a-graph](graph-1.jpg)
+
+## How to represent a graph to a computer:
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 2 (Adjacency matrix):</strong> 
+
+For a graph $G = (V, E)$ with $V = \{v_1, v_2, \ldots, v_n\}$, the adjacency matrix of $G$ is the $n\times n$ matrix $A = (a_{ij})$ where
+$$
+a_{ij} = \begin{cases} 1 & \text{if } v_i v_j \in E(G), \\ 0 & \text{otherwise}. \end{cases}
+$$
+</div> <br>
+
+![adjacency](adjacency.jpg)
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 3 (Incidence matrix):</strong> 
+
+For a graph $G = (V, E)$ with $V = \{v_1, v_2, \ldots, v_n\}$ and $E = \{e_1, e_2, \ldots, e_m\}$, the incidence matrix of $G$ is the $n\times m$ matrix $B = (b_{ij})$ where
+$$
+b_{ij} = \begin{cases} 1 & \text{if } v_i \text{ is incident with } e_j, \\ 0 & \text{otherwise}. \end{cases}
+$$
+</div> <br>
+
+![alt text](incidence-1.jpg)
+
+
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
 They are particularly useful for modeling:
