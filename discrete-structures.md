@@ -174,7 +174,7 @@ Show that in any group of six people, there are either three people who are all 
 *The relationship "friend" is symmetric, so if $A$ is a friend of $B$, then $B$ is a friend of $A$.
 
 <details>
-  <summary>Proof</summary>
+  <summary>Solution</summary>
   <br>
 
   Let us label the six people as $1, 2, 3, 4, 5$ and $6$ and represent them as vertices in the plane.
@@ -192,14 +192,16 @@ Show that in any group of six people, there are either three people who are all 
   If any of edges $23$, $34$ or $24$ is blue, then we are done, as we create a blue "triangle" together with the vertex $1.$
   If all of them are red, then we have a red "triangle" with vertices $2, 3$ and $4$.<br><br>
 
-  Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.
+  Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.<br>
 
-   <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy"> 
+  <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy"> 
    
    $\quad \square$
 </details><br>
 
 This problem is part of [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), one of the most important areas of combinatorics.
+
+
 
 ### Transportation Networks 
 
