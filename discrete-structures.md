@@ -8,7 +8,12 @@ title: Discrete Structures I
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
+These are lecture notes for the course Discrete Structures I at the University of Heidelberg. 
+It is based on the following references:
 
+- [Graph Theory, by Reinhard Diestel](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68186198&sess=5f7a7579bfaf3a64015bcea36e810349&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=diestel%20graph%20theory&var2=&var3=)
+- [Introduction to Graph Theory, by Douglas West](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=65556254&sess=b50347097cae2224671ddc674cf2f8f3&query=introduction%20to%20graph%20theory)
+- [Combinatorial Optimization, by Bernhard Korte and Jens Vygen](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68239473&sess=b4681c0144bdad684b6bf44a4fee8e1a&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=Korte&var2=Combinatorial%20optimisation&var3=)
 
 # Lecture 1: The basics of Graph Theory
 
@@ -201,7 +206,23 @@ Show that in any group of six people, there are either three people who are all 
 
 This problem is part of [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), one of the most important areas of combinatorics.
 
+More generally, in a social network we might look for **cliques** and/or **independent sets**.
 
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 10 (Clique):</strong>
+
+A <strong>clique</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\in E(G)$.
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 11 (Independent set):</strong>
+
+An <strong>independent set</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\notin E(G)$.
+</div><br>
+
+By rephrasing the problem above in this language, we can say that in any graph with six vertices, there is either a clique of size $3$ or an independent set of size $3$.
+
+### Job Assignment
 
 ### Transportation Networks 
 
