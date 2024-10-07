@@ -17,6 +17,15 @@ It is based on personal lecture notes of Professor Felix Joos and the following 
 
 The code for this page is in markdown and is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
 
+# Table of Contents
+
+1. [The basics of Graph Theory](#lecture-1-the-basics-of-graph-theory)
+2. [Graphs as models and an initial glossary of terms](#graphs-as-models-and-an-initial-glossary-of-terms)
+3. [Beginning of Graph Theory: the Königsberg bridge problem](#beginning-of-graph-theory-the-königsberg-bridge-problem)
+4. [The Handshaking Lemma and the average degree](#the-handshaking-lemma-and-the-average-degree)
+5. [Regular graphs](#regular-graphs)
+6. [Isomorphism and Automorphism](#isomorphism-and-automorphism)
+
 
 # Lecture 1: The basics of Graph Theory
 
