@@ -464,15 +464,6 @@ A <strong>matching</strong> in a graph $G$ is a set of edges $M\subseteq E(G)$ s
 Finding a matching in a bipartite graph is a classic problem in combinatorial optimization.
 
 
-
-### Transportation Networks 
-
-In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest **path** from one city to another (e.g., for a GPS system), or **cycle** (e.g., for a delivery company).
-See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw), where the goal is to find the shortest path that visits all cities exactly once and returns to the starting city.
-
-
-
-
 ### Scheduling Management 
  Imagine a train schedule, where trains have to be run at certain times.
  Here, the trains are the vertices, and if two of them overlap in time, there is an edge between them.
@@ -488,6 +479,14 @@ The <strong>chromatic number</strong> of a graph $G$ is the smallest number of c
 
 See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
 Each colour represents a different crew. 
+
+
+### Transportation Networks 
+
+In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest **path** from one city to another (e.g., for a GPS system), or **cycle** (e.g., for a delivery company).
+See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw), where the goal is to find the shortest path that visits all cities exactly once and returns to the starting city.
+
+
 
 
 ----
