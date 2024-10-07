@@ -60,6 +60,19 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 </div> 
 <br>
 
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 4 (maximum and minimum degrees):</strong>
+
+The <strong>maximum degree</strong> $\Delta(G)$ of a graph $G$ is the maximum degree of its vertices, that is,
+$$
+\Delta(G) = \max \{ d_G(v) \mid v\in V(G) \}.
+$$
+The <strong>minimum degree</strong> $\delta(G)$ of a graph $G$ is the minimum degree of its vertices, that is,
+$$
+\delta(G) = \min \{ d_G(v) \mid v\in V(G) \}.
+$$
+</div><br>
+
 ## How to represent a graph to a human
 
 ![how-to-represent-a-graph](graph.jpg)
@@ -89,6 +102,8 @@ $$
 $$
 N_G(u_4) = \{u_1, u_2, u_3\}, \quad N_G(u_5) = \{u_3, u_6\}, \quad N_G(u_6) = \{u_5\}.
 $$
+
+The maximum and minimum degrees are $\Delta(G) = 3$ and $\delta(G) = 1$, respectively. $\quad \square$
 </details><br>
 
 
@@ -96,7 +111,7 @@ $$
 ## How to represent a graph to a computer
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 4 (Adjacency matrix):</strong> 
+    <strong>Definition 5 (Adjacency matrix):</strong> 
 
 For a graph $G = (V, E)$ with $V = \{v_1, v_2, \ldots, v_n\}$, the adjacency matrix of $G$ is the $n\times n$ matrix $A = (a_{ij})$ where
 $$
@@ -111,7 +126,7 @@ $$
 </details><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 5 (Incidence matrix):</strong> 
+    <strong>Definition 6 (Incidence matrix):</strong> 
 
 For a graph $G = (V, E)$ with $V = \{v_1, v_2, \ldots, v_n\}$ and $E = \{e_1, e_2, \ldots, e_m\}$, the incidence matrix of $G$ is the $n\times m$ matrix $B = (b_{ij})$ where
 $$
@@ -132,7 +147,7 @@ They are particularly useful for modeling social and transportation networks, sc
 To model these problems precisely, the following definitions are useful.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 6 (Subgraph):</strong> 
+    <strong>Definition 7 (Subgraph):</strong> 
 
   A graph $H$ is a <strong>subgraph</strong> of a graph $G$ if $V(H)\subseteq V(G)$ and $E(H)\subseteq E(G)$ or $G\supseteq H$. 
   We also say that $G$ contains $H.$ <br><br>
@@ -143,7 +158,7 @@ To model these problems precisely, the following definitions are useful.
 
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 7 (Induced subgraph):</strong> 
+    <strong>Definition 8 (Induced subgraph):</strong> 
 
 If $H$ is a subgraph of $G$ and for all $u,v\in V(H)$ and $uv\in E(G)$, we also have $uv\in E(H)$, then we say that $H$ is an <strong>induced</strong> subgraph of $G$.<br><br>
 
@@ -153,7 +168,7 @@ We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply 
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 8 (Complement graph):</strong> 
+    <strong>Definition 9 (Complement graph):</strong> 
 
 The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}.$ 
 </div><br>
@@ -167,7 +182,7 @@ The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)
 
  By using the language of graph theory, we can solve the following problem:
 
-<div style="border:1px solid; padding:10px">
+<div style="border:1px solid #007BFF; padding:10px">
     <strong>Problem 1:</strong>
 
 Show that in any group of six people, there are either three people who are all friends with each other, or three people who are all strangers to each other.* Show that this is not true for five people.
@@ -206,13 +221,13 @@ This problem is part of [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_the
 More generally, in a social network we might look for **cliques** and/or **independent sets**.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 9 (Clique):</strong>
+    <strong>Definition 10 (Clique):</strong>
 
 A <strong>clique</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\in E(G)$.
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 10 (Independent set):</strong>
+    <strong>Definition 11 (Independent set):</strong>
 
 An <strong>independent set</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\notin E(G).$
 </div><br>
@@ -225,7 +240,7 @@ We have $m$ jobs and $n$ people, but not all people are qualified for all jobs.
 Can we fill the jobs with qualified people? We can model this problem using a **bipartite graph**.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 11 (Bipartite graph):</strong>
+    <strong>Definition 12 (Bipartite graph):</strong>
 
 A graph $G$ is <strong>bipartite</strong> if its vertex set can be partitioned into two sets $U$ and $V$ such that every edge has one endpoint in $U$ and the other in $V$. 
 </div><br>
@@ -235,7 +250,7 @@ An edge between a job and a person means that the person is qualified for the jo
 The goal is to find a **matching** between jobs and people, where each job is assigned to a qualified person.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 12 (Matching):</strong>
+    <strong>Definition 13 (Matching):</strong>
 
 A <strong>matching</strong> in a graph $G$ is a set of edges $M\subseteq E(G)$ such that no two edges in $M$ share a vertex.
 </div><br>
@@ -251,13 +266,13 @@ See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/wa
 
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 13 (Path):</strong>
+    <strong>Definition 14 (Path):</strong>
 
 A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v_1, \ldots, v_k$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1.$
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 14 (Cycle):</strong>
+    <strong>Definition 15 (Cycle):</strong>
 
 A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1,$ where $v_k=v_0.$
 </div><br>
@@ -270,7 +285,7 @@ A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_
  The answer to this problem is given by the **chromatic number** of the conflict graph.
  
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 15 (Chromatic number):</strong>
+    <strong>Definition 16 (Chromatic number):</strong>
 
 The <strong>chromatic number</strong> of a graph $G$ is the smallest number of colours needed to colour the vertices of $G$ such that no two adjacent vertices have the same colour.
 </div><br>
@@ -352,10 +367,11 @@ $$
   $$
 </details><br>
 
+
 Just with this lemma, we can already solve one simple problem:)
 
 <div style="border:1px solid #007BFF; padding:10px">
-    <strong>Problem 1:</strong>
+    <strong>Problem 2:</strong>
 
 Prove that in a graph $G$ there are an even number of vertices of odd degree.
 </div>
@@ -374,6 +390,21 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
   \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}. \quad \square
   $$ 
 </details><br>
+
+
+Due to the Handshaking Lemma, it makes sense to define the **average degree** of a graph as below.
+
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 17 (Average degree and edge density):</strong>
+
+The <strong>average degree</strong> $d(G)$ of a graph $G$ is the number
+$$
+d(G) = \dfrac{2e(G)}{v(G)}.
+$$
+</div><br>
+
+For any graph $G$, our next lemma says that we can always find a subgraph with minimum degree greater than half the average degree of $G$.
 
 The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
 This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
