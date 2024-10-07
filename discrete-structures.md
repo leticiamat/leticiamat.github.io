@@ -156,13 +156,8 @@ We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply 
 The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}.$ 
 </div><br>
 
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 9 (Isomorphism):</strong> 
 
-An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H).$<br><br>
 
-If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
-</div><br>
 
 ### Social Networks
 
@@ -249,7 +244,24 @@ Finding a matching in a bipartite graph is a classic problem in combinatorial op
 
 ### Transportation Networks 
 
-In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest path from one city to another (e.g., for a GPS system), or planning a route that visits several cities with the least amount of travel (like the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw)).
+In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest **path** from one city to another (e.g., for a GPS system), or **cycle** (e.g., for a delivery company).
+See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw), where the goal is to find the shortest path that visits all cities exactly once and returns to the starting city.
+
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 14 (Path):</strong>
+
+A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v_1, \ldots, v_k$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1$.
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 15 (Cycle):</strong>
+
+A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1$, where $v_k=v_0$.
+</div><br>
+
+
+
 
 ### Scheduling Management 
  Imagine a train schedule, where trains have to be run at certain times.
@@ -264,8 +276,48 @@ The <strong>chromatic number</strong> of a graph $G$ is the smallest number of c
 </div><br>
  
 
- See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
+See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
 Each colour represents a different crew. 
+
+
+----
+
+## Beginning of Graph Theory: The Königsberg Bridge Problem
+
+The city of Königsberg, once situated along the Pregel River in Prussia, was divided into two main islands and areas on both riverbanks. These regions were connected by seven bridges, as illustrated below.
+
+Citizens of the city often pondered an intriguing question: could someone leave home, cross each of the seven bridges exactly once, and return home?
+
+This seemingly simple puzzle was famously solved by the mathematician Leonhard Euler in 1736, laying the foundation for graph theory.
+
+![konigs](konigsberg-bridge.jpg)
+
+Can you solve it too?
+
+<details>
+  <summary>Tap here for a solution </summary>
+  <br>
+  
+  Let us represented the land areas as vertices and the bridges as edges, as shown below.
+
+  <img src="graph-konigs.jpg" alt="konigsberg-graph" loading="lazy">
+  <br><br>
+
+
+  The problem then becomes: is there a path in this "graph" (this is not a graph, as it has multiple edges) that visits each edge exactly once and returns to the starting vertex?<br><br>
+
+  The answer is no! Every vertex time we enter a vertex, we must leave it by a different edge. 
+  This means that a necessary condition for such a path to exist is that the degree of each vertex is even.
+  But in the graph above, all vertices have an odd degree! So it is impossible to find such a path. $\quad \square$
+</details><br>
+
+
+----
+
+
+## The Handshaking Lemma and Regular Graphs
+
+----
 
 
 
@@ -331,6 +383,10 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
 The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
 This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
 
+
+
+## Regular graphs
+
 There are many questions we can ask about degree sequences and some of them can be quite challenging. 
 One natural question is: 
 given a non-negative integer $d$, are there graphs where each vertex has a degree of $d$?
@@ -395,10 +451,26 @@ Show that there exists a $d$-regular graph with $n$ vertices if and only if $dn$
 </details><br>
 
 
-
 Well, not every graph is regular. 
 But we can nevertheless always find a *reasonable* regular graph *containing* it. 
 To formalize this idea, we first need to say what we mean by containing.
+
+## Isomorphism and Automorphism
+
+
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 9 (Isomorphism and automorphism):</strong> 
+
+An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H).$
+When $H = G$, we say that $f$ is an <strong>automorphism</strong> of $G$. <br><br>
+
+If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
+</div><br>
+
+
+
+
 
 tobedone
 - definicao de subgrafo
