@@ -280,7 +280,7 @@ Each colour represents a different crew.
 
 ----
 
-## Beginning of Graph Theory: The Königsberg Bridge Problem
+## Beginning of Graph Theory: the Königsberg bridge problem
 
 The city of Königsberg, once situated along the Pregel River in Prussia, was divided into two main islands and areas on both riverbanks. These regions were connected by seven bridges, as illustrated below.
 
@@ -298,7 +298,7 @@ Can you solve it too?
   
   Let us represented the land areas as vertices and the bridges as edges, as shown below.
 
-  <img src="graph-konigs.jpg" alt="konigsberg-graph" loading="lazy">
+  <img src="graph-konigs.jpg" alt="konigsberg-graph" loading="lazy" width="400">
   <br><br>
 
 
