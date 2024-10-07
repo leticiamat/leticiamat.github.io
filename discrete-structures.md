@@ -8,12 +8,14 @@ title: Discrete Structures I
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.11/contrib/auto-render.min.js"
     onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
-These are lecture notes for the course Discrete Structures I at the University of Heidelberg. 
+These are my lecture notes for the course Discrete Structures I at the University of Heidelberg. 
 It is based on the following references:
 
 - [Graph Theory, by Reinhard Diestel](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68186198&sess=5f7a7579bfaf3a64015bcea36e810349&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=diestel%20graph%20theory&var2=&var3=)
 - [Introduction to Graph Theory, by Douglas West](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=65556254&sess=b50347097cae2224671ddc674cf2f8f3&query=introduction%20to%20graph%20theory)
 - [Combinatorial Optimization, by Bernhard Korte and Jens Vygen](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68239473&sess=b4681c0144bdad684b6bf44a4fee8e1a&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=Korte&var2=Combinatorial%20optimisation&var3=)
+
+The code for this page is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
 
 # Lecture 1: The basics of Graph Theory
 
@@ -194,7 +196,7 @@ Show that in any group of six people, there are either three people who are all 
 
   Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.<br>
 
-  <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy"> 
+  <img src="ramsey-2.jpg" alt="ramsey-1" loading="lazy" width="400"> 
    
    $\quad \square$
 </details><br>
@@ -204,15 +206,15 @@ This problem is part of [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_the
 More generally, in a social network we might look for **cliques** and/or **independent sets**.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 10 (Clique):</strong>
+    <strong>Definition 9 (Clique):</strong>
 
 A <strong>clique</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\in E(G)$.
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 11 (Independent set):</strong>
+    <strong>Definition 10 (Independent set):</strong>
 
-An <strong>independent set</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\notin E(G)$.
+An <strong>independent set</strong> in a graph $G$ is a set of vertices $U\subseteq V(G)$ such that for all distinct vertices $u,v\in U,$ we have $uv\notin E(G).$
 </div><br>
 
 By rephrasing the problem above in this language, we can say that in any graph with six vertices, there is either a clique of size $3$ or an independent set of size $3$.
@@ -223,7 +225,7 @@ We have $m$ jobs and $n$ people, but not all people are qualified for all jobs.
 Can we fill the jobs with qualified people? We can model this problem using a **bipartite graph**.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 12 (Bipartite graph):</strong>
+    <strong>Definition 11 (Bipartite graph):</strong>
 
 A graph $G$ is <strong>bipartite</strong> if its vertex set can be partitioned into two sets $U$ and $V$ such that every edge has one endpoint in $U$ and the other in $V$. 
 </div><br>
@@ -233,7 +235,7 @@ An edge between a job and a person means that the person is qualified for the jo
 The goal is to find a **matching** between jobs and people, where each job is assigned to a qualified person.
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 13 (Matching):</strong>
+    <strong>Definition 12 (Matching):</strong>
 
 A <strong>matching</strong> in a graph $G$ is a set of edges $M\subseteq E(G)$ such that no two edges in $M$ share a vertex.
 </div><br>
@@ -249,15 +251,15 @@ See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/wa
 
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 14 (Path):</strong>
+    <strong>Definition 13 (Path):</strong>
 
-A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v_1, \ldots, v_k$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1$.
+A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v_1, \ldots, v_k$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1.$
 </div><br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 15 (Cycle):</strong>
+    <strong>Definition 14 (Cycle):</strong>
 
-A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1$, where $v_k=v_0$.
+A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1,$ where $v_k=v_0.$
 </div><br>
 
 
@@ -268,7 +270,7 @@ A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_
  The answer to this problem is given by the **chromatic number** of the conflict graph.
  
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 14 (Chromatic number):</strong>
+    <strong>Definition 15 (Chromatic number):</strong>
 
 The <strong>chromatic number</strong> of a graph $G$ is the smallest number of colours needed to colour the vertices of $G$ such that no two adjacent vertices have the same colour.
 </div><br>
@@ -313,13 +315,8 @@ Can you solve it too?
 ----
 
 
-## The Handshaking Lemma and Regular Graphs
+## The Handshaking Lemma and the average degree
 
-----
-
-
-
- -------
 
 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
