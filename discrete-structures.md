@@ -224,14 +224,52 @@ By rephrasing the problem above in this language, we can say that in any graph w
 
 ### Job Assignment
 
+We have $m$ jobs and $n$ people, but not all people are qualified for all jobs. 
+Can we fill the jobs with qualified people? We can model this problem using a **bipartite graph**.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 12 (Bipartite graph):</strong>
+
+A graph $G$ is <strong>bipartite</strong> if its vertex set can be partitioned into two sets $U$ and $V$ such that every edge has one endpoint in $U$ and the other in $V$. 
+</div><br>
+
+In the job assignment problem, we can represent each job as a vertex in $U$ and each person as a vertex in $V$.
+An edge between a job and a person means that the person is qualified for the job.
+The goal is to find a **matching** between jobs and people, where each job is assigned to a qualified person.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 13 (Matching):</strong>
+
+A <strong>matching</strong> in a graph $G$ is a set of edges $M\subseteq E(G)$ such that no two edges in $M$ share a vertex.
+</div><br>
+
+Finding a matching in a bipartite graph is a classic problem in combinatorial optimization.
+
+
+
 ### Transportation Networks 
 
 In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest path from one city to another (e.g., for a GPS system), or planning a route that visits several cities with the least amount of travel (like the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw)).
 
-**Scheduling Management**: 
+### Scheduling Management 
  Imagine a train schedule, where trains have to be run at certain times.
  Here, the trains are the vertices, and if two of them overlap in time, there is an edge between them.
- The goal is to find the minimum number of crews needed to run all the trains without any conflicts. Graph colourings can be used to solve this type of problem. See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
+ The goal is to find the minimum number of crews needed to run all the trains without any conflicts. 
+ The answer to this problem is given by the **chromatic number** of the conflict graph.
+ 
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 14 (Chromatic number):</strong>
+
+The <strong>chromatic number</strong> of a graph $G$ is the smallest number of colours needed to colour the vertices of $G$ such that no two adjacent vertices have the same colour.
+</div><br>
+ 
+
+ See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
+Each colour represents a different crew. 
+
+
+
+ -------
 
 
 Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
