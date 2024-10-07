@@ -179,18 +179,18 @@ Show that in any group of six people, there are either three people who are all 
 
   Let us label the six people as $1, 2, 3, 4, 5$ and $6$ and represent them as vertices in the plane.
   Draw a blue edge connecting two people if they are friends, and a red edge if they are strangers.
-  The goal is then to show that there are three vertices connected by edges of the same colour.
+  The goal is then to show that there are three vertices connected by edges of the same colour.<br><br>
 
   There are $5$ edges incident to each vertex.
-  By the [Pigeonhole Principle](https://en.wikipedia.org/wiki/Pigeonhole_principle), the vertex $1$ has at least $3$ edges of the same colour.
+  By the <a href="https://en.wikipedia.org/wiki/Pigeonhole_principle" target="_blank">Pigeonhole Principle</a>, the vertex $1$ has at least $3$ edges of the same colour.
   We have two cases: either this colour is blue or red.
   Let us assume it is blue (the other case is similar).
   Up to relabelling, we can then assume that the vertices $2, 3$ and $4$ are connected to $1$ by blue edges.
 
  <img src="ramsey-1.jpg" alt="ramsey-1" loading="lazy">
   
-  If any of edges $23$, $34$ or $24$ is blue, then we are done, as we create a blue "triangle" together with the vertex $1$.
-  If all of them are red, then we have a red "triangle" with vertices $2, 3$ and $4$.
+  If any of edges $23$, $34$ or $24$ is blue, then we are done, as we create a blue "triangle" together with the vertex $1.$
+  If all of them are red, then we have a red "triangle" with vertices $2, 3$ and $4$.<br><br>
 
   Finally, the statement is not true for five people. Consider the following group of people with the relationships shown in the drawing below.
 
