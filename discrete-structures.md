@@ -9,13 +9,14 @@ title: Discrete Structures I
     onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
 
 These are my lecture notes for the course Discrete Structures I at the University of Heidelberg. 
-It is based on the following references:
+It is based on personal lecture notes of Professor Felix Joos and the following references:
 
 - [Graph Theory, by Reinhard Diestel](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68186198&sess=5f7a7579bfaf3a64015bcea36e810349&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=diestel%20graph%20theory&var2=&var3=)
 - [Introduction to Graph Theory, by Douglas West](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=65556254&sess=b50347097cae2224671ddc674cf2f8f3&query=introduction%20to%20graph%20theory)
 - [Combinatorial Optimization, by Bernhard Korte and Jens Vygen](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68239473&sess=b4681c0144bdad684b6bf44a4fee8e1a&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=Korte&var2=Combinatorial%20optimisation&var3=)
 
-The code for this page is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
+The code for this page is in markdown and is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
+
 
 # Lecture 1: The basics of Graph Theory
 
@@ -61,7 +62,7 @@ The <strong>degree</strong> $d_G(v)$ of $v$ is the size of the neighbourhood of 
 <br>
 
 <div style="border:1px solid; padding:10px">
-    <strong>Definition 4 (maximum and minimum degrees):</strong>
+    <strong>Definition 4 (Maximum and minimum degrees):</strong>
 
 The <strong>maximum degree</strong> $\Delta(G)$ of a graph $G$ is the maximum degree of its vertices, that is,
 $$
@@ -392,6 +393,10 @@ Prove that in a graph $G$ there are an even number of vertices of odd degree.
 </details><br>
 
 
+The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
+This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
+
+
 Due to the Handshaking Lemma, it makes sense to define the **average degree** of a graph as below.
 
 
@@ -406,10 +411,41 @@ $$
 
 For any graph $G$, our next lemma says that we can always find a subgraph with minimum degree greater than half the average degree of $G$.
 
-The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
-This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 2 (Subgraph of large min degree):</strong>
 
+  Every graph $G$ with at least one edge has a subgraph $H$ with 
+  $$
+  \delta(H) > \dfrac{d(H)}{2} \ge \dfrac{d(G)}{2}.
+  $$
+</div><br>
 
+<details>
+  <summary>Proof</summary>
+  <br>
+  
+  We proceed by induction on the number of vertices.
+  The base case is when $G$ has only one edge and two vertices. In this case, we can take $H=G$ and the result is true.<br><br>
+
+  We may also assume that $G$ has at least $3$ vertices and that
+	$\delta(G)\le d(G)/2$, otherwise we can simply take $H=G$.
+  Thus, there is a vertex $v$ in $G$ with a degree
+	of at most $d(G)/2$. 
+  For simplicity, let $m$ be the number of edges and $n$ be the number of vertices of $G$.   
+	Then, we have 
+  $$
+  \begin{aligned}
+  \frac{d(G-v)}{2} = \frac{e(G-v)}{v(G-v)} &=\frac{m-d(v)}{n-1}
+		\geq \frac{m-\frac{m}{n}}{n-1}
+		& = \frac{1}{n}\cdot\frac{mn-m}{n-1}=\frac{m}{n}=\frac{d(G)}{2}
+    \end{aligned}
+  $$
+  
+  Thus, applying the induction hypothesis to $G-v$ we obtain a subgraph $H$
+	of $G-v$, and therefore of $G$, with 
+	$$
+  \delta(H)>\dfrac{d(H)}{2} \ge \dfrac{d(G-v)}{2}\ge \dfrac{d(G)}{2}. \quad \square $$
+</details>
 
 ## Regular graphs
 
