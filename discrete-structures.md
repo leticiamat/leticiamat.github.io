@@ -175,16 +175,10 @@ Can you solve it too?
 
 
 
-
-
-
-
-
 ## An initial glossary of terms
 
-Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
-They are particularly useful for modeling social and transportation networks, scheduling management, job assignments and computer science problems. 
-To model these problems precisely, the following definitions are useful.
+Here we introduce fundamental concepts that will form the basis for analysing and manipulating graphs in various contexts.
+
 
 <div style="border:1px solid; padding:10px">
     <strong>Definition 7 (Subgraph):</strong> 
@@ -386,6 +380,7 @@ A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_
 ## Graphs as models 
 
 
+Graphs provide a powerful framework for modeling relationships and structures across various domains. By abstracting elements as vertices and their connections as edges, graphs help to visualize and solve complex problems, from network flow in transportation systems to the spread of information. Whether it's mapping friendships or analysing logistics, graph theory offers versatile tools that allow us to understand and navigate intricate systems.
 
 ### Social Networks
 
@@ -526,10 +521,9 @@ The answer is yes! Showing this is a challenging problem.
 Let $n \in \mathbb{N}_{\ge 1}$ and $d \in \mathbb{N}_{\ge 0}$. 
 Show that there exists a $d$-regular graph with $n$ vertices if and only if $dn$ is even and $d\leq n-1$.
 </div>
-<br>
 
 <details>
-  <summary>Proof</summary>
+  <summary>Solution</summary>
   <br> 
   
   By the discussion above, we already know that if there exists a $d$-regular graph with $n$ vertices, then $dn$ is even and $d\leq n-1$.
