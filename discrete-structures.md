@@ -384,12 +384,12 @@ Graphs provide a powerful framework for modeling relationships and structures ac
 
 ### Social Networks
 
- Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge. Graphs help us understand how people are connected, who are the most influential people, or how information spreads. 
+ Graphs are often used to study social networks. Each person is a vertex, and a connection between two people (like a friendship or a message) is an edge.  
 
  By using the language of graph theory, we can solve the following problem:
 
 <div style="border:1px solid #007BFF; padding:10px">
-    <strong>Problem 1:</strong>
+    <strong>Problem 2:</strong>
 
 Show that in any group of six people, there are either three people who are all friends with each other, or three people who are all strangers to each other.* Show that this is not true for five people.
 </div><br>
@@ -542,6 +542,7 @@ Every graph $G$ is the subgraph of some $\Delta(G)$-regular graph.
 
 </div>
 
+## Trees and forests
 
 
-
+## Algorithms
