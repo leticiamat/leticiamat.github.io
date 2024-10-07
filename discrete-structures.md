@@ -17,15 +17,6 @@ It is based on personal lecture notes of Professor Felix Joos and the following 
 
 The code for this page is in markdown and is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
 
-# Table of Contents
-
-1. [The basics of Graph Theory](#lecture-1-the-basics-of-graph-theory)
-2. [Graphs as models and an initial glossary of terms](#graphs-as-models-and-an-initial-glossary-of-terms)
-3. [Beginning of Graph Theory: the Königsberg bridge problem](#beginning-of-graph-theory-the-königsberg-bridge-problem)
-4. [The Handshaking Lemma and the average degree](#the-handshaking-lemma-and-the-average-degree)
-5. [Regular graphs](#regular-graphs)
-6. [Isomorphism and Automorphism](#isomorphism-and-automorphism)
-
 
 # Lecture 1: The basics of Graph Theory
 
@@ -150,10 +141,49 @@ $$
    <img src="incidence-1.jpg" alt="incidence" loading="lazy">
 </details><br>
 
-## Graphs as models and an initial glossary of terms
+
+
+## Beginning of Graph Theory: the Königsberg bridge problem
+
+The city of Königsberg, once situated along the Pregel River in Prussia, was divided into two main islands and areas on both riverbanks. These regions were connected by seven bridges, as illustrated below.
+
+Citizens of the city often pondered an intriguing question: could someone leave home, cross each of the seven bridges exactly once, and return home?
+
+This seemingly simple puzzle was famously solved by the mathematician Leonhard Euler in 1736, laying the foundation for graph theory.
+
+![konigs](konigsberg-bridge.jpg)
+
+Can you solve it too?
+
+<details>
+  <summary>Tap here for a solution </summary>
+  <br>
+  
+  Let us represented the land areas as vertices and the bridges as edges, as shown below.
+
+  <img src="graph-konigs.jpg" alt="konigsberg-graph" loading="lazy" width="400">
+  <br><br>
+
+
+  The problem then becomes: is there a path in this "graph" (this is not a graph, as its edge set is a multiset) that visits each edge exactly once and returns to the starting vertex?<br><br>
+
+  The answer is no! Every vertex time we enter a vertex, we must leave it by a different edge. 
+  This means that a necessary condition for such a path to exist is that the degree of each vertex is even.
+  But in the graph above, all vertices have an odd degree! So it is impossible to find such a path. $\quad \square$
+</details><br>
+
+
+
+
+
+
+
+
+
+## An initial glossary of terms
 
 Graphs can model a wide variety of real-world situations and allows us to solve many different types of problems.
-They are particularly useful for modeling social and transportation networks, scheduling management, and computer science problems. 
+They are particularly useful for modeling social and transportation networks, scheduling management, job assignments and computer science problems. 
 To model these problems precisely, the following definitions are useful.
 
 <div style="border:1px solid; padding:10px">
@@ -183,6 +213,177 @@ We write $G-U$ for the graph $G[V(G)\setminus U]$. If $U=\{u\}$, then we simply 
 The graph $H$ is the <strong>complement</strong> of $G$ if $V(G)=V(H)$ and $E(H)=\binom{V(G)}{2}\setminus E(G)$. The complement of $G$ is denoted by $\bar{G}.$ 
 </div><br>
 
+
+
+## The Handshaking Lemma and the average degree
+
+
+
+Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
+See the [video](https://www.youtube.com/watch?v=8siY3EjTXxE) for an interactive proof.
+
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 1 (The Handshaking lemma):</strong>
+
+For every graph $G$ we have
+$$
+\sum_{v\in V(G)} d_G(v) = 2e(G).
+$$
+</div>
+
+<details>
+  <summary>Proof</summary>
+  <br>
+  
+  The informal argument goes as follows: the sum $\sum_{v\in V(G)} d_G(v)$ counts an edge $xy$ twice, once in $d_G(x)$ and once in $d_G(y)$.
+
+  More formally, define
+
+  $$
+  S = \{ (v, e) \mid v\in V(G), e\in E(G), v\in e \}.
+  $$
+  Each $e\in E(G)$ belongs to precisely two pairs in $S$, so 
+  $$
+  |S|=2e(G).
+  $$
+  Each $v\in V(G)$ belongs to precisely $d_G(v)$ pairs in $S$, so we also have
+  $$
+  |S|=\sum_{v\in V(G)}d_G(v). \quad \square 
+  $$
+</details><br>
+
+
+Just with this lemma, we can already solve one simple problem:)
+
+<div style="border:1px solid #007BFF; padding:10px">
+    <strong>Problem 1:</strong>
+
+Prove that in a graph $G$ there are an even number of vertices of odd degree.
+</div>
+
+<details>
+  <summary>Solution</summary>
+  <br>
+  
+  Let $V_{\text{odd}}$ be the set of vertices of odd degree and $V_{\text{even}}$ be the set of vertices of even degree in $G$. 
+  By the <strong>Handshaking Lemma</strong>, we have
+  $$
+  \sum_{v\in V_{\text{odd}}} d_G(v) + \sum_{v\in V_{\text{even}}} d_G(v) = 2e(G). 
+  $$
+  By analysing this equation modulo 2, we have
+  $$
+  \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}. \quad \square
+  $$ 
+</details><br>
+
+
+The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
+This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
+
+
+Due to the Handshaking Lemma, it makes sense to define the **average degree** of a graph as below.
+
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 10 (Average degree and edge density):</strong>
+
+The <strong>average degree</strong> $d(G)$ of a graph $G$ is the number
+$$
+d(G) = \dfrac{2e(G)}{v(G)}.
+$$
+</div><br>
+
+For any graph $G$, our next lemma says that we can always find a subgraph with minimum degree greater than half the average degree of $G$.
+
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 2 (Subgraph of large min degree):</strong>
+
+  Every graph $G$ with at least one edge has a subgraph $H$ with 
+  $$
+  \delta(H) > \dfrac{d(H)}{2} \ge \dfrac{d(G)}{2}.
+  $$
+</div>
+
+<details>
+  <summary>Proof</summary>
+  <br>
+  
+  We proceed by induction on the number of vertices.
+  The base case is when $G$ has only one edge and two vertices. In this case, we can take $H=G$ and the result is true.<br><br>
+
+  We may also assume that $G$ has at least $3$ vertices and that
+	$\delta(G)\le d(G)/2$, otherwise we can simply take $H=G$.
+  Thus, there is a vertex $v$ in $G$ with a degree
+	of at most $d(G)/2$. 
+  For simplicity, let $m$ be the number of edges and $n$ be the number of vertices of $G$.   
+	Then, we have 
+  $$
+  \begin{aligned}
+  \frac{d(G-v)}{2} = \frac{e(G-v)}{v(G-v)} &=\frac{m-d(v)}{n-1}
+		\geq \frac{m-\frac{m}{n}}{n-1}
+		& = \frac{1}{n}\cdot\frac{mn-m}{n-1}=\frac{m}{n}=\frac{d(G)}{2}
+    \end{aligned}
+  $$
+  
+  Thus, applying the induction hypothesis to $G-v$ we obtain a subgraph $H$
+	of $G-v$, and therefore of $G$, with 
+	$$
+  \delta(H)>\dfrac{d(H)}{2} \ge \dfrac{d(G-v)}{2}\ge \dfrac{d(G)}{2}. \quad \square $$
+</details>
+
+
+
+## Isomorphism and Automorphism
+
+
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 11 (Isomorphism and automorphism):</strong> 
+
+An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H).$
+When $H = G$, we say that $f$ is an <strong>automorphism</strong> of $G$. <br><br>
+
+If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
+</div><br>
+
+We can show that the isomorphism relation is an [equivalence relation](https://en.wikipedia.org/wiki/Equivalence_relation) on the set of all graphs.
+An isomorphism class of graphs is an equivalence class of graphs under the isomorphism relation (informally: "unlabeled graph”).
+
+**Remark**: When discussing structural properties, by "graph $H$” we usually mean (a member of) the isomorphism
+class of $H$. For example: when we say "$H$ is subgraph of $G$” we often mean ”there is a subgraph of $G$ isomorphic to $H$” (or ”$G$ contains a copy of $H$”).
+
+Below, we list some basic isomorphism classes of graphs.
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 12 (Complete graph):</strong>
+
+The <strong>complete graph</strong> $K_n$ is a graph with $n$ vertices and an edge between every pair of distinct vertices.
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 13 (Complete bipartite graph):</strong>
+
+The <strong>complete bipartite graph</strong> $K_{m,n}$ is a graph with two disjoint sets of vertices $U$ and $V$ with $m$ and $n$ vertices, respectively, and an edge between every pair of vertices $u\in U$ and $v\in V$.
+</div><br>
+
+
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 14 (Path):</strong>
+
+A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v_1, \ldots, v_k$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1.$
+<strong>Usual notation</strong>: $P_k.$
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 15 (Cycle):</strong>
+
+A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1,$ where $v_k=v_0.$
+<strong>Usual notation</strong>: $C_k.$
+</div><br>
+
+
+## Graphs as models 
 
 
 
@@ -275,17 +476,6 @@ In transportation, cities can be represented as vertices, and roads or flights b
 See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw), where the goal is to find the shortest path that visits all cities exactly once and returns to the starting city.
 
 
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 14 (Path):</strong>
-
-A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v_1, \ldots, v_k$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1.$
-</div><br>
-
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 15 (Cycle):</strong>
-
-A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1,$ where $v_k=v_0.$
-</div><br>
 
 
 ### Scheduling Management 
@@ -307,203 +497,28 @@ Each colour represents a different crew.
 
 ----
 
-## Beginning of Graph Theory: the Königsberg bridge problem
-
-The city of Königsberg, once situated along the Pregel River in Prussia, was divided into two main islands and areas on both riverbanks. These regions were connected by seven bridges, as illustrated below.
-
-Citizens of the city often pondered an intriguing question: could someone leave home, cross each of the seven bridges exactly once, and return home?
-
-This seemingly simple puzzle was famously solved by the mathematician Leonhard Euler in 1736, laying the foundation for graph theory.
-
-![konigs](konigsberg-bridge.jpg)
-
-Can you solve it too?
-
-<details>
-  <summary>Tap here for a solution </summary>
-  <br>
-  
-  Let us represented the land areas as vertices and the bridges as edges, as shown below.
-
-  <img src="graph-konigs.jpg" alt="konigsberg-graph" loading="lazy" width="400">
-  <br><br>
-
-
-  The problem then becomes: is there a path in this "graph" (this is not a graph, as it has multiple edges) that visits each edge exactly once and returns to the starting vertex?<br><br>
-
-  The answer is no! Every vertex time we enter a vertex, we must leave it by a different edge. 
-  This means that a necessary condition for such a path to exist is that the degree of each vertex is even.
-  But in the graph above, all vertices have an odd degree! So it is impossible to find such a path. $\quad \square$
-</details><br>
-
-
-----
-
-
-## The Handshaking Lemma and the average degree
-
-
-
-Our first lemma, known as the Handshaking Lemma, is a fundamental result in graph theory. It says that if we known the degrees of all the vertices in a graph, then we can determine its size.
-See the [video](https://www.youtube.com/watch?v=8siY3EjTXxE) for an interactive proof.
-
-<div style="border:4px solid; padding:10px">
-    <strong> Lemma 1 (The Handshaking lemma):</strong>
-
-For every graph $G$ we have
-$$
-\sum_{v\in V(G)} d_G(v) = 2e(G).
-$$
-</div>
-
-<details>
-  <summary>Proof</summary>
-  <br>
-  
-  The informal argument goes as follows: the sum $\sum_{v\in V(G)} d_G(v)$ counts an edge $xy$ twice, once in $d_G(x)$ and once in $d_G(y)$.
-
-  More formally, define
-
-  $$
-  S = \{ (v, e) \mid v\in V(G), e\in E(G), v\in e \}.
-  $$
-  Each $e\in E(G)$ belongs to precisely two pairs in $S$, so 
-  $$
-  |S|=2e(G).
-  $$
-  Each $v\in V(G)$ belongs to precisely $d_G(v)$ pairs in $S$, so we also have
-  $$
-  |S|=\sum_{v\in V(G)}d_G(v). \quad \square 
-  $$
-</details><br>
-
-
-Just with this lemma, we can already solve one simple problem:)
-
-<div style="border:1px solid #007BFF; padding:10px">
-    <strong>Problem 2:</strong>
-
-Prove that in a graph $G$ there are an even number of vertices of odd degree.
-</div>
-
-<details>
-  <summary>Solution</summary>
-  <br>
-  
-  Let $V_{\text{odd}}$ be the set of vertices of odd degree and $V_{\text{even}}$ be the set of vertices of even degree in $G$. 
-  By the <strong>Handshaking Lemma</strong>, we have
-  $$
-  \sum_{v\in V_{\text{odd}}} d_G(v) + \sum_{v\in V_{\text{even}}} d_G(v) = 2e(G). 
-  $$
-  By analysing this equation modulo 2, we have
-  $$
-  \mid V_{\text{odd}} \mid \,\, \equiv \, \, 0 \pmod{2}. \quad \square
-  $$ 
-</details><br>
-
-
-The problem above says that if you are given a degree sequence $(d(v): v\in V(G))$ of a graph, then we know that the number of vertices with odd degree is even.
-This means that not every sequence of non-negative integers can represent the degree sequence of a graph.
-
-
-Due to the Handshaking Lemma, it makes sense to define the **average degree** of a graph as below.
-
-
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 17 (Average degree and edge density):</strong>
-
-The <strong>average degree</strong> $d(G)$ of a graph $G$ is the number
-$$
-d(G) = \dfrac{2e(G)}{v(G)}.
-$$
-</div><br>
-
-For any graph $G$, our next lemma says that we can always find a subgraph with minimum degree greater than half the average degree of $G$.
-
-<div style="border:4px solid; padding:10px">
-    <strong> Lemma 2 (Subgraph of large min degree):</strong>
-
-  Every graph $G$ with at least one edge has a subgraph $H$ with 
-  $$
-  \delta(H) > \dfrac{d(H)}{2} \ge \dfrac{d(G)}{2}.
-  $$
-</div><br>
-
-<details>
-  <summary>Proof</summary>
-  <br>
-  
-  We proceed by induction on the number of vertices.
-  The base case is when $G$ has only one edge and two vertices. In this case, we can take $H=G$ and the result is true.<br><br>
-
-  We may also assume that $G$ has at least $3$ vertices and that
-	$\delta(G)\le d(G)/2$, otherwise we can simply take $H=G$.
-  Thus, there is a vertex $v$ in $G$ with a degree
-	of at most $d(G)/2$. 
-  For simplicity, let $m$ be the number of edges and $n$ be the number of vertices of $G$.   
-	Then, we have 
-  $$
-  \begin{aligned}
-  \frac{d(G-v)}{2} = \frac{e(G-v)}{v(G-v)} &=\frac{m-d(v)}{n-1}
-		\geq \frac{m-\frac{m}{n}}{n-1}
-		& = \frac{1}{n}\cdot\frac{mn-m}{n-1}=\frac{m}{n}=\frac{d(G)}{2}
-    \end{aligned}
-  $$
-  
-  Thus, applying the induction hypothesis to $G-v$ we obtain a subgraph $H$
-	of $G-v$, and therefore of $G$, with 
-	$$
-  \delta(H)>\dfrac{d(H)}{2} \ge \dfrac{d(G-v)}{2}\ge \dfrac{d(G)}{2}. \quad \square $$
-</details>
-
 ## Regular graphs
 
-There are many questions we can ask about degree sequences and some of them can be quite challenging. 
+There are many questions we can ask about degree sequences of graphs and some of them can be quite challenging. 
 One natural question is: 
 given a non-negative integer $d$, are there graphs where each vertex has a degree of $d$?
 
 
-<div style="border:4px solid; padding:10px">
-    <strong> Lemma 2 (same degree):</strong>
-
-For every non-negative integer $d$, there are infinitely many graphs $G$ such that $d_G(v) = d$ for all $v\in V(G)$.
-</div>
-<br>
-
-The proof of this lemma follows directly from the construction of **hypercubes** or **complete bipartite graphs**.
-
 <div style="border:1px solid; padding:10px">
-<strong> Definition 4 (Hypercube) :</strong>
-
-The $d$-dimensional hypercube, denoted as $Q_d$, is a graph whose vertex set consists of all binary strings of length $d$, represented by $\{0,1\}^d$. 
-Two vertices in this graph are adjacent if and only if they differ in exactly one coordinate.
-
-</div>
-<br>
-
-<details>
-  <summary>Proof of Lemma 2 </summary>
-  <br>
-  
-  Each vertex in the hypercube $Q_d$ has degree $d$. 
-  To construct infinitely many graphs in which every vertex has degree $d$, one can take disjoint unions of multiple copies of $Q_d$. This process can be repeated as many times as we want. $\quad \square$
-</details><br>
-
-Graphs where every vertex has the same degree have a special name.
-
-<div style="border:1px solid; padding:10px">
-<strong> Definition 5 (regular graphs) :</strong>
+<strong> Definition 18 (Regular graphs) :</strong>
 
 For a non-negative integer $d$, a graph $G$ is called $d$-regular if $d_G(v) = d$ for all $v\in V(G)$.
 
 </div>
 <br>
 
+The existence of $d$-regular graphs follows directly from the construction of **complete graphs** $K_{d+1}$ and **complete bipartite graphs** $K_{d,d}$. Moreover, we can take as many disjoint copies of these graphs as we want and construct an infinite family of $d$-regular graphs.
+
 
 Given $n \in \mathbb{N}_{\ge 1}$ and $d \in \mathbb{N}_{\ge 0}$, can we always find a $d$-regular graph with $n$ vertices?
 The answer is: it depends. The degree $d$ should be at most $n-1$, for example. By the **Handshaking Lemma**, we should also have $dn$ even. 
 But... are these conditions sufficient?
-The answer is yes! Showing this is a hard problem.
+The answer is yes! Showing this is a challenging problem.
 
 <div style="border:1px solid #007BFF; padding:10px">
 <strong> Problem 2 :</strong>
@@ -523,29 +538,16 @@ Show that there exists a $d$-regular graph with $n$ vertices if and only if $dn$
 
 
 Well, not every graph is regular. 
-But we can nevertheless always find a *reasonable* regular graph *containing* it. 
-To formalize this idea, we first need to say what we mean by containing.
-
-## Isomorphism and Automorphism
+But we can nevertheless always find a *reasonable* regular graph containing it. 
 
 
+<div style="border:4px solid; padding:10px">
+<strong> Lemma 19 (Regular subgraph):</strong>
 
-<div style="border:1px solid; padding:10px">
-    <strong>Definition 9 (Isomorphism and automorphism):</strong> 
+Every graph $G$ is the subgraph of some $\Delta(G)$-regular graph.
 
-An isomorphism from a graph $G$ to a graph $H$ is a bijection $f: V(G) \to V(H)$ such that $uv\in E(G)$ if and only if $f(u)f(v)\in E(H).$
-When $H = G$, we say that $f$ is an <strong>automorphism</strong> of $G$. <br><br>
+</div>
 
-If there exists an isomorphism from $G$ to $H$, then we say that $G$ and $H$ are <strong>isomorphic</strong>, and we write $G\cong H$.
-</div><br>
-
-
-
-
-
-tobedone
-- definicao de subgrafo
-- proposicao
 
 
 
