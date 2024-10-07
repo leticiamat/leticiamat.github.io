@@ -261,8 +261,6 @@ A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_
 </div><br>
 
 
-
-
 ### Scheduling Management 
  Imagine a train schedule, where trains have to be run at certain times.
  Here, the trains are the vertices, and if two of them overlap in time, there is an edge between them.
@@ -278,6 +276,46 @@ The <strong>chromatic number</strong> of a graph $G$ is the smallest number of c
 
 See this [video](https://www.youtube.com/watch?v=295ONmLcj60) for an example.
 Each colour represents a different crew. 
+
+
+----
+
+## Beginning of Graph Theory: The Königsberg Bridge Problem
+
+The city of Königsberg, once situated along the Pregel River in Prussia, was divided into two main islands and areas on both riverbanks. These regions were connected by seven bridges, as illustrated below.
+
+Citizens of the city often pondered an intriguing question: could someone leave home, cross each of the seven bridges exactly once, and return home?
+
+This seemingly simple puzzle was famously solved by the mathematician Leonhard Euler in 1736, laying the foundation for graph theory.
+
+![konigs](konigsberg-bridge.jpg)
+
+Can you solve it too?
+
+<details>
+  <summary>Tap here for a solution </summary>
+  <br>
+  
+  Let us represented the land areas as vertices and the bridges as edges, as shown below.
+
+  <img src="graph-konigs.jpg" alt="konigsberg-graph" loading="lazy">
+  <br><br>
+
+
+  The problem then becomes: is there a path in this "graph" (this is not a graph, as it has multiple edges) that visits each edge exactly once and returns to the starting vertex?<br><br>
+
+  The answer is no! Every vertex time we enter a vertex, we must leave it by a different edge. 
+  This means that a necessary condition for such a path to exist is that the degree of each vertex is even.
+  But in the graph above, all vertices have an odd degree! So it is impossible to find such a path. $\quad \square$
+</details><br>
+
+
+----
+
+
+## The Handshaking Lemma and Regular Graphs
+
+----
 
 
 
