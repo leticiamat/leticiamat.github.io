@@ -18,7 +18,7 @@ It is based on personal lecture notes of Professor Felix Joos and the following 
 The code for this page is in markdown and is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
 
 
-# Lecture 1: The basics of Graph Theory
+# Lecture 1: The basics of Graph Theory - Part I
 
 Graphs provide a simple way to represent and study relationships between different objects. 
 
@@ -325,6 +325,7 @@ For any graph $G$, our next lemma says that we can always find a subgraph with m
   \delta(H)>\dfrac{d(H)}{2} \ge \dfrac{d(G-v)}{2}\ge \dfrac{d(G)}{2}. \quad \square $$
 </details>
 
+# Lecture 2: The basics of Graph Theory - Part II
 
 
 ## Isomorphism and Automorphism
