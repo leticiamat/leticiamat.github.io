@@ -486,8 +486,71 @@ Each colour represents a different crew.
 In transportation, cities can be represented as vertices, and roads or flights between cities as edges. Graphs help solve problems like finding the shortest **path** from one city to another (e.g., for a GPS system), or **cycle** (e.g., for a delivery company).
 See, for example, the [Traveling Salesperson Problem](https://www.youtube.com/watch?v=LL1t1WbdMZw), where the goal is to find the shortest path that visits all cities exactly once and returns to the starting city.
 
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 17 (Girth):</strong>
+
+The <strong>girth</strong> of a graph $G$ is the length of the shortest cycle in $G.$ 
+If $G$ is acyclic, then the girth is defined to be $\infty.$ <strong> Usual notation</strong>: $g(G).$
+
+</div><br>
+
+<div style="border:1px solid; padding:10px">
+    <strong>Definition 18 (Distance and diameter):</strong>
+
+The <strong>distance</strong> between two vertices $u$ and $v$ in a graph $G$ is the length of the shortest path between $u$ and $v.$ <strong> Usual notation</strong>: $d_G(u,v).$<br><br>
+
+The <strong>diameter</strong> of a graph $G$ is the maximum distance between any two vertices in $G.$ <strong> Usual notation</strong>: $\text{diam}(G).$
+
+</div><br>
 
 
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 3 (paths in graphs):</strong>
+
+  Every graph $G$ contains a path of length at least $\delta(G)$. If $\delta \ge 2$, then $G$ contains a cycle of length at least $\delta(G)+1.$
+</div>
+
+<details>
+  <summary>Proof</summary>
+  <br>
+  
+  Consider a longest path $v_0 \ldots v_k$ in $G$. We must have $N_G(v_0) \subseteq \{v_1,\ldots,v_k\},$ and hence the size $k$ of the path must be at least $|N_G(v_0)| \ge \delta(G).$<br><br>
+
+  Similarly, let $i = \max\{j: v_j \in N_G(v_0)\}$. We have $N_G(v_0) \subseteq \{v_1,\ldots,v_i\},$ and hence $i \ge |N_G(v_0)| \ge \delta(G)$. Thus, $v_0,\ldots,v_iv_0$ is a cycle of length $\delta(G)+1.$ $\quad \square $
+</details>
+
+
+
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 4 (diameter and girth):</strong>
+
+  Every graph $G$ containing a cycle satisfies $\text{diam}(G)\le 2g(G)+1.$
+</div>
+
+<details>
+  <summary>Proof</summary>
+  <br>
+  
+  to be done
+</details>
+
+For $d, g \in \mathbb{N}_{\ge 1}$ we define
+$$
+n_0(d,g) = \begin{cases} 1 + d\sum_{i=0}^{r-1}(d-1)^i & \text{if } g = 2r+1, \\ 2\sum_{i=0}^{r-1}(d-1)^i & \text{if } g = 2r \end{cases}
+$$
+
+<div style="border:4px solid; padding:10px">
+    <strong> Lemma 5 (vertices in a graph with given min degree and girth):</strong>
+
+  A graph with $g(G) = g$ and $\delta(G) = \delta$ has at least $n_0(d,g)$ vertices.
+</div>
+<br>
+
+<div style="border:4px solid; padding:10px">
+    <strong> Corollary 1:</strong>
+
+  If $G$ is a graph with $\delta(G) \ge 3$, then $g(G)< 2\log_2 v(G)$.
+</div>
 
 ----
 
