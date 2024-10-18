@@ -535,7 +535,11 @@ The <strong>diameter</strong> of a graph $G$ is the maximum distance between any
 </details><br>
 
 For $d, g \in \mathbb{N}_{\ge 1}$ we define
-$$ n_0(d,g) = \begin{cases} 1 + d\sum_{i=0}^{r-1}(d-1)^i & \text{if } g = 2r+1, \\ 2\sum_{i=0}^{r-1}(d-1)^i & \text{if } g = 2r \end{cases} $$
+$$ 
+n_0(d,g) = \begin{cases} 1 + d\sum_{i=0}^{r-1}(d-1)^i & \text{if } g = 2r+1, \\ 2\sum_{i=0}^{r-1}(d-1)^i & \text{if } g = 2r \end{cases} 
+$$
+
+
 
 <div style="border:4px solid; padding:10px">
     <strong> Lemma 5 (vertices in a graph with given min degree and girth):</strong>
