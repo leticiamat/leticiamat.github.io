@@ -17,7 +17,6 @@ It is based on personal lecture notes of Professor Felix Joos and the following 
 
 The code for this page is in markdown and is available on my [GitHub](https://github.com/leticiamat/leticiamat.github.io) repository.
 
-
 # Lecture 1: The basics of Graph Theory - Part I
 
 Graphs provide a simple way to represent and study relationships between different objects. 
@@ -373,7 +372,7 @@ A <strong>path</strong> of length $k$ is a graph $P$ with $k+1$ vertices $v_0, v
 <div style="border:1px solid; padding:10px">
     <strong>Definition 15 (Cycle):</strong>
 
-A <strong>cycle</strong> of length $k$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1,$ where $v_k=v_0.$
+A <strong>cycle</strong> of length $k\ge 3$ is a graph $C$ with $k$ vertices $v_0, v_1, \ldots, v_{k-1}$ and $k$ edges $v_iv_{i+1}$ for $i=0,1,\ldots,k-1,$ where $v_k=v_0.$
 <strong>Usual notation</strong>: $C_k.$
 </div><br>
 
