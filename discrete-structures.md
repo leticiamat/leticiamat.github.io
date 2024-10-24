@@ -327,7 +327,6 @@ For any graph $G$, our next lemma says that we can always find a subgraph with m
 
 # Lecture 2: The basics of Graph Theory - Part II
 
-
 ## Isomorphism and Automorphism
 
 
@@ -440,8 +439,6 @@ An <strong>independent set</strong> in a graph $G$ is a set of vertices $U\subse
 </div><br>
 
 By rephrasing the problem above in this language, we can say that in any graph with six vertices, there is either a clique of size $3$ or an independent set of size $3$.
-
-# Lecture 3: The basics of Graph Theory - Part III
 
 # Lecture 3: The basics of Graph Theory - Part III
 
