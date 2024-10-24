@@ -443,6 +443,8 @@ By rephrasing the problem above in this language, we can say that in any graph w
 
 # Lecture 3: The basics of Graph Theory - Part III
 
+# Lecture 3: The basics of Graph Theory - Part III
+
 
 ### Transportation Networks 
 
