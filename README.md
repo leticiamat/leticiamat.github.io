@@ -93,7 +93,6 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 2024/2: [Discrete Structures I](https://moodle.uni-heidelberg.de/course/view.php?id=23840#section-0) at Universität Heidelberg
 <br>
 <br> 
-<br>
 ### Awards:
 
 - [Capes Thesis Award (2022)](https://impa.br/en_US/noticias/tese-de-leticia-mattos-vence-premio-capes/)
