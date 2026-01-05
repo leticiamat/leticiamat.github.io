@@ -41,11 +41,11 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
 <span>with S. Griffiths, </span><br>
-<span><i> Combinatorica </i>, 45 (2025), 45:63 (48 pages). </span><br>
+<span><i>Combinatorica</i>, 45 (2025), 45:63 (48 pages). </span><br>
 <br>
 <a href="https://arxiv.org/abs/2407.04492"><span><b>On the number of sets with small sumset,</b></span></a> <br>
 <span>with D. Liu and T. Szabó, </span><br>
-<span><i> Israel Journal of Mathematics</i>, to appear. </span><br>
+<span><i>Israel Journal of Mathematics</i>, to appear. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2307.09446"><span><b>Local central limit theorem for triangle counts in sparse random graphs,</b></span></a> <br>
 <span>with P. Araujo, </span><br>
@@ -53,35 +53,35 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
-<span><i>SIAM Journal on Discrete Mathematics</i>, 39 (2025), 1082--1095. </span><br>
+<span><i>SIAM Journal on Discrete Mathematics</i>, 39 (2025), 1082-1095. </span><br>
 <br> 
 <a href="https://arxiv.org/abs/1904.11478"><span><b>On the singularity of random symmetric matrices,</b></span></a> <br>
 <span>with M. Campos, R. Morris and N. Morrison,</span><br>
-<span><i>Duke Mathematical Journal </i>, 170 (2021), 881-907. </span><br>
+<span><i>Duke Mathematical Journal</i>, 170 (2021), 881-907. </span><br>
 <br>
 <a href="https://arxiv.org/abs/1905.03811"><span><b>Long rainbow arithmetic progressions,</b></span></a> <br>
 <span>with J. Balogh and W. Linz, </span><br>
-<span><i> Journal of Combinatorics </i>, 12 (2021), 547–550. </span><br>
+<span><i>Journal of Combinatorics</i>, 12 (2021), 547–550. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2107.14798"><span><b>Counting r-graphs without forbidden configurations,</b></span></a> <br>
 <span>with J. Balogh and F. C. Clemen, </span><br>
-<span><i> Journal of Combinatorial Theory Series B</i>, 157 (2022), 216-234. </span><br>
+<span><i>Journal of Combinatorial Theory Series B</i>, 157 (2022), 216-234. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2010.11933"><span><b>Asymmetric Ramsey Properties of random graphs for cliques and cycles,</b></span></a> <br>
 <span>with A. Liebenau, W. Mendonça and J. Skokan, </span><br>
-<span><i> Random Structures and Algorithms </i>, 62 (2023), 1035-1055. </span><br>
+<span><i>Random Structures and Algorithms</i>, 62 (2023), 1035-1055. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2209.00140"><span><b>New lower bounds for essential covers of the cube,</b></span></a> <br>
 <span>with I. Araujo and J. Balogh,</span><br>
-<span><i> Israel Journal of Mathematics </i>, 266 (2024), 1-21. </span><br>
+<span><i>Israel Journal of Mathematics</i>, 266 (2024), 1-21. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2402.05060"><span><b>On multicolor Turán numbers,</b></span></a> <br>
 <span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
-<span><i>SIAM Journal on Discrete Mathematics</i>, 38 (2024), 2297–2311. </span><br>
+<span><i>SIAM Journal on Discrete Mathematics</i>, 38 (2024), 2297-2311. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2201.05106"><span><b>On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
 <span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota, </span><br>
-<span><i> Electronic Journal of Combinatorics </i>, 31 (2024), #P1.70. </span><br>
+<span><i>Electronic Journal of Combinatorics </i>, 31 (2024), #P1.70. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2405.09486"><span><b>Subgraphs of random graphs in hereditary families,</b></span></a> <br>
 <span>with A. Clifton, H. Liu and M. Zheng. </span><br>
