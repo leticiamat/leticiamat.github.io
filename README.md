@@ -32,11 +32,11 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 ### Research:
 
 <a href="https://arxiv.org/abs/2512.08899"><span><b>On the Prague dimension of sparse random graphs,</b></span></a> <br>
-<span>with F. Joos </span><br>
+<span>with F. Joos, </span><br>
 <span>submitted. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2503.17334"><span><b>On almost Gallai colourings in complete graphs,</b></span></a> <br>
-<span>with A. Grebennikov and T. Szabó </span><br>
+<span>with A. Grebennikov and T. Szabó, </span><br>
 <span>submitted. </span><br>
 <br>
 <a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
@@ -64,11 +64,11 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span><i> Journal of Combinatorics </i>, 12 (2021), 547–550. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2107.14798"><span><b>Counting r-graphs without forbidden configurations,</b></span></a> <br>
-<span>with J. Balogh and F. C. Clemen </span><br>
+<span>with J. Balogh and F. C. Clemen, </span><br>
 <span><i> Journal of Combinatorial Theory Series B</i>, 157 (2022), 216-234. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2010.11933"><span><b>Asymmetric Ramsey Properties of random graphs for cliques and cycles,</b></span></a> <br>
-<span>with A. Liebenau, W. Mendonça and J. Skokan </span><br>
+<span>with A. Liebenau, W. Mendonça and J. Skokan, </span><br>
 <span><i> Random Structures and Algorithms </i>, 62 (2023), 1035-1055. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2209.00140"><span><b>New lower bounds for essential covers of the cube,</b></span></a> <br>
@@ -80,7 +80,7 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <span><i>SIAM Journal on Discrete Mathematics</i>, 38 (2024), 2297–2311. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2201.05106"><span><b>On the anti-Ramsey threshold for non-balanced graphs,</b></span></a> <br>
-<span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota </span><br>
+<span>with P. Araújo, T. Martins, W. Mendonça, L. Moreira and G. O. Mota, </span><br>
 <span><i> Electronic Journal of Combinatorics </i>, 31 (2024), #P1.70. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2405.09486"><span><b>Subgraphs of random graphs in hereditary families,</b></span></a> <br>
