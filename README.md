@@ -31,13 +31,17 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br> 
 ### Research:
 
+<a href="https://arxiv.org/abs/2512.08899"><span><b>On the Prague dimension of sparse random graphs,</b></span></a> <br>
+<span>with F. Joos </span><br>
+<span>submitted. </span><br>
+<br>
 <a href="https://arxiv.org/abs/2503.17334"><span><b>On almost Gallai colourings in complete graphs,</b></span></a> <br>
 <span>with A. Grebennikov and T. Szabó </span><br>
 <span>submitted. </span><br>
 <br>
 <a href="http://arxiv.org/abs/2405.00667"><span><b>Clique packings in random graphs,</b></span></a> <br>
 <span>with S. Griffiths, </span><br>
-<span>submitted. </span><br>
+<span><i> Combinatorica </i>, 45 (2025), 45:63 (48 pages). </span><br>
 <br>
 <a href="https://arxiv.org/abs/2407.04492"><span><b>On the number of sets with small sumset,</b></span></a> <br>
 <span>with D. Liu and T. Szabó, </span><br>
@@ -49,7 +53,7 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
-<span><i>SIAM Journal on Discrete Mathematics</i>, to appear. </span><br>
+<span><i>SIAM Journal on Discrete Mathematics</i>, 39 (2025), 1082--1095. </span><br>
 <br> 
 <a href="https://arxiv.org/abs/1904.11478"><span><b>On the singularity of random symmetric matrices,</b></span></a> <br>
 <span>with M. Campos, R. Morris and N. Morrison,</span><br>
@@ -69,7 +73,7 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2209.00140"><span><b>New lower bounds for essential covers of the cube,</b></span></a> <br>
 <span>with I. Araujo and J. Balogh,</span><br>
-<span><i> Israel Journal of Mathematics </i>, TBD (2024), 1-21. </span><br>
+<span><i> Israel Journal of Mathematics </i>, 266 (2024), 1-21. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2402.05060"><span><b>On multicolor Turán numbers,</b></span></a> <br>
 <span>with J. Balogh, A. Liebenau and N. Morrison, </span><br>
