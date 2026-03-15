@@ -16,7 +16,7 @@ Germany
 <br> 
 Office: 2/212
 <br>
-e-mail: mattos (at) uni-heidelberg (dot) de
+e-mail: leticiadmat (at) gmail (dot) com
 <br> 
 <a href="https://arxiv.org/a/mattos_l_1.html"><span>arxiv</span></a> <br>
 <br> 
@@ -49,7 +49,7 @@ Before coming to Heidelberg, I was a a J.L. Doob Research Assistant Professor at
 <br>
 <a href="https://arxiv.org/abs/2307.09446"><span><b>Local central limit theorem for triangle counts in sparse random graphs,</b></span></a> <br>
 <span>with P. Araujo, </span><br>
-<span><i>Mathematical Proceedings of the Cambridge Philosophical Society</i>, to appear. </span><br>
+<span><i>Mathematical Proceedings of the Cambridge Philosophical Society</i>, 180 (2026), 459-475. </span><br>
 <br>
 <a href="https://arxiv.org/abs/2311.18796"><span><b>On product Schur triples in the integers,</b></span></a> <br>
 <span>with D. Mergoni Cecchelli and O. Parczyk, </span><br>
