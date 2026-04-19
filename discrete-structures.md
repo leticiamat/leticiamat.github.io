@@ -21,7 +21,9 @@ It is based mostly in following references:
 ![Here](DS1-lucian-lecture-notes.pdf) you can find the typed lecture notes taken by my student, Lucian von Hagen, based on the classes.
 
 
-# Lecture 1: The basics of Graph Theory - Part I
+![DS1-lecture-notes/L1.pdf](## Lecture 1: The basics of Graph Theory - Part I)
+
+
 
 
 
