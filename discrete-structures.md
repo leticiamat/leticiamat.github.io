@@ -18,8 +18,10 @@ It is based mostly in following references:
 - [Introduction to Graph Theory, by Douglas West](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=65556254&sess=b50347097cae2224671ddc674cf2f8f3&query=introduction%20to%20graph%20theory)
 - [Combinatorial Optimization, by Bernhard Korte and Jens Vygen](https://katalog.ub.uni-heidelberg.de/cgi-bin/titel.cgi?katkey=68239473&sess=b4681c0144bdad684b6bf44a4fee8e1a&art=f&kat1=freitext&kat2=ti&kat3=au&op1=AND&op2=AND&var1=Korte&var2=Combinatorial%20optimisation&var3=)
   
-Here you can find the typed lecture notes taken by my student, Lucian von Hagen, based on the classes.
+![Here](DS1-lucian-lecture-notes.pdf) you can find the typed lecture notes taken by my student, Lucian von Hagen, based on the classes.
 
 
 # Lecture 1: The basics of Graph Theory - Part I
+
+
 
