@@ -1,7 +1,7 @@
+
 # Letícia Mattos
 
-
-<a href="https://opc.mfo.de/detail?photo_id=24846"><img src="https://github.com/leticiamat/leticiamat.github.io/assets/21958842/a277fbbc-b8a0-411a-b0a5-e9133cf574b9"></a>
+<img width="1539" height="1230" alt="me" src="https://github.com/user-attachments/assets/7431485a-226c-434c-a95a-168350375277" />
 <br> 
 <br> 
 Universität Heidelberg
