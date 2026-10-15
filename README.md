@@ -1,7 +1,7 @@
 
 # Letícia Mattos
 
-<img width="1539" height="1230" alt="me" src="https://github.com/user-attachments/assets/7431485a-226c-434c-a95a-168350375277" />
+<img width="770" height="615" alt="me" src="https://github.com/user-attachments/assets/7431485a-226c-434c-a95a-168350375277" />
 <br> 
 <br> 
 Universität Heidelberg
